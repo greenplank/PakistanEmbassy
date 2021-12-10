@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/woodvnos/public_html/demo2.greenplank.se
+       - /bin/cp -R * $DEPLOYPATH
