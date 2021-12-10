@@ -1863,17 +1863,18 @@ h6 {
 
 @media only screen and (max-width: 1244px) and (min-width: 1200px)  {
   #hero-banner{
-    padding: 7em 2em 7em 2em !important;
+    padding: 7em 2em 1em 2em !important;
   }
   }
   @media only screen and (max-width: 1200px) and (min-width: 1020px)  {
     #hero-banner{
-      padding: 1em 1em 6em 2em !important;
+      padding: 1em 1em 3em 2em !important;
     }
     }
+    
     @media only screen and (max-width: 1020px) and (min-width: 992px)  {
       #hero-banner{
-        padding: 1em .4em 6em 2em !important;
+        padding: 1em .4em 1em 2em !important;
         margin-bottom: 2px;
       }
       }
@@ -1903,8 +1904,8 @@ h6 {
 }
 
 .thm-btn3{
-  font-size: 9px !important;
-  padding: 12px 3.5px;
+  font-size: 11px !important;
+  padding: 9px 1px;
 }
 
 .thm-btn:hover {
@@ -7190,9 +7191,9 @@ h6 {
 }
 
 .service-two {
-  padding-bottom: 65px;
+  /* padding-bottom: 65px; */
   background-color: #f1f1f1;
-  background-image: url(../images/shapes/img.webp);
+  background-image: url(../images/shapes/slide-1.webp);
   background-repeat: repeat-x;
   background-position: bottom center;
   -webkit-box-shadow: inset 0px -10px 60px 0px rgba(0, 0, 0, 0.05);
@@ -7205,8 +7206,8 @@ h6 {
 }
 
 .service-two__box {
-  margin-bottom: 34px;
-  min-height: 290px;
+  margin-bottom: 74px;
+  min-height: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
