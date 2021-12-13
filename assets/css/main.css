@@ -7241,7 +7241,7 @@ h6 {
 .service-two__box {
   margin-bottom: 74px;
   margin-top: 70px;
-  min-height: 160px;
+  min-height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7311,7 +7311,7 @@ h6 {
 .service-two__box h3 {
   margin: 0;
   color: #fff;
-  font-size: 36px;
+  font-size: 25px;
   font-weight: bold;
   letter-spacing: -0.04em;
   max-width: 230px;
