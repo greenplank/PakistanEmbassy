@@ -12,7 +12,7 @@ const HittaTextSection = () => {
                     <h5>Hitta den Hantverkare av Green Plank naturfiber komposit produkter som ligger närmast dig. Lär dig var du kan köpa Green Plank trall, staket, beklädnads material och de förnödenheter du behöver för att slutföra ditt nya projekt.</h5>
                 </div>
                 <div>
-                <iframe src="https://storage.googleapis.com/greenplankdata1/index.html" width="100%" height="600px" scrolling="no" frameborder="no" allowtransparency="true"></iframe>
+                {/* <iframe src="https://storage.googleapis.com/greenplankdata1/index.html" width="100%" height="600px" scrolling="no" frameborder="no" allowtransparency="true"></iframe> */}
                 </div>
             </Container>
         </section>

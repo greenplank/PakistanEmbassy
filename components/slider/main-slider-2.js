@@ -265,10 +265,10 @@ const MainSliderTwo = () => {
                         <div >
                           <div className="block-title text-left">
                             <h3>
-                              <span style={{ color: "white" }}>Green Plank</span>
+                              <span style={{ color: "white",fontSize: "76px"  }}>Green Plank</span>
                             </h3>
                           </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "1rem" }}>
+                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
                             Miljövänlig komposit produkter med lågt underhåll
                           </h2>
 
@@ -330,10 +330,10 @@ const MainSliderTwo = () => {
                         <div >
                           <div className="block-title text-left">
                             <h3>
-                              <span style={{ color: "white" }}>Green Plank</span>
+                              <span style={{ color: "white",fontSize: "76px" }}>Green Plank</span>
                             </h3>
                           </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "1rem" }}>
+                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
                             Miljövänlig komposit produkter med lågt underhåll
                           </h2>
 
@@ -395,10 +395,10 @@ const MainSliderTwo = () => {
                         <div >
                           <div className="block-title text-left">
                             <h3>
-                              <span style={{ color: "white" }}>Green Plank</span>
+                              <span style={{ color: "white",fontSize: "76px" }}>Green Plank</span>
                             </h3>
                           </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "1rem" }}>
+                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
                             Miljövänlig komposit produkter med lågt underhåll
                           </h2>
 
@@ -460,10 +460,10 @@ const MainSliderTwo = () => {
                         <div >
                           <div className="block-title text-left">
                             <h3>
-                              <span style={{ color: "white" }}>Green Plank</span>
+                              <span style={{ color: "white",fontSize: "76px" }}>Green Plank</span>
                             </h3>
                           </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "1rem" }}>
+                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
                             Miljövänlig komposit produkter med lågt underhåll
                           </h2>
 
@@ -525,10 +525,10 @@ const MainSliderTwo = () => {
                         <div >
                           <div className="block-title text-left">
                             <h3>
-                              <span style={{ color: "white" }}>Green Plank</span>
+                              <span style={{ color: "white",fontSize: "76px" }}>Green Plank</span>
                             </h3>
                           </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "1rem" }}>
+                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
                             Miljövänlig komposit produkter med lågt underhåll
                           </h2>
 
@@ -590,10 +590,10 @@ const MainSliderTwo = () => {
                         <div >
                           <div className="block-title text-left">
                             <h3>
-                              <span style={{ color: "white" }}>Green Plank</span>
+                              <span style={{ color: "white",fontSize: "76px"  }}>Green Plank</span>
                             </h3>
                           </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "1rem" }}>
+                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
                             Miljövänlig komposit produkter med lågt underhåll
                           </h2>
 
