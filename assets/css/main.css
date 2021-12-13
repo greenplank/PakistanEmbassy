@@ -7224,7 +7224,8 @@ h6 {
 }
 
 .service-two {
-  /* padding-bottom: 65px; */
+  padding-bottom: 65px;
+  padding-top: 65px;
   background-color: #f1f1f1;
   background-image: url(../images/shapes/slide-1.webp);
   background-repeat: repeat-x;
@@ -7241,7 +7242,7 @@ h6 {
 .service-two__box {
   margin-bottom: 74px;
   margin-top: 70px;
-  min-height: 70px;
+  min-height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7254,10 +7255,10 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: hard-light;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   position: relative;
   background-position: center center;
 }
@@ -7266,7 +7267,7 @@ h6 {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: inherit;
+  
   opacity: 0.8;
   position: absolute;
   top: 0;
@@ -7311,7 +7312,7 @@ h6 {
 .service-two__box h3 {
   margin: 0;
   color: #fff;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: -0.04em;
   max-width: 230px;

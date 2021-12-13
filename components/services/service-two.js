@@ -29,7 +29,7 @@ const SERVICE_TWO_DATA = [
 const ServiceTwo = () => {
   const sliderOptions = {
     slidesPerView: 3,
-    spaceBetween: 30,
+    spaceBetween: 70,
     breakpoints: {
       0: {
         slidesPerView: 1,
@@ -37,27 +37,27 @@ const ServiceTwo = () => {
       },
       375: {
         slidesPerView: 1,
-        spaceBetween: 30
+        spaceBetween: 70
       },
       575: {
         slidesPerView: 1,
-        spaceBetween: 30
+        spaceBetween: 70
       },
       768: {
         slidesPerView: 1,
-        spaceBetween: 30
+        spaceBetween: 70
       },
       991: {
         slidesPerView: 2,
-        spaceBetween: 30
+        spaceBetween: 70
       },
       1199: {
         slidesPerView: 2,
-        spaceBetween: 30
+        spaceBetween: 70
       },
       1200: {
         slidesPerView: 3,
-        spaceBetween: 30
+        spaceBetween: 70
       }
     }
   };
@@ -70,7 +70,6 @@ const ServiceTwo = () => {
                   <SwiperSlide key={`service-two-key-${index}`}>
                     <div
                       className={`service-two__box ${extraClassName}`}
-                      style={{ backgroundImage: `url(${image})`, backgroundColor: "#b5c7bb" }}
                     >
                       <div className="service-two__box-inner">
                         <h3>

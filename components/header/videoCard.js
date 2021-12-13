@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 // import ModalVideo from "react-modal-video";
 import { Container, Row, Col } from "react-bootstrap";
-import bgImage from "../../assets/images/backgrounds/video-cta.webp";
 
 import Icon1 from "../../assets/images/backgrounds/alll-icons-01.png";
 import Icon2 from "../../assets/images/backgrounds/alll-icons-02.png";
