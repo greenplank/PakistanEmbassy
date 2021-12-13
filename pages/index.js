@@ -28,11 +28,13 @@ const HomeTwo = () => {
         <HeaderTwo />
         <StickyHeader extraClassName="stricky-header-two" />
         <MainSliderTwo />
-        <ServiceTwo />
+        
         <VideoCards />
         <HemGallery />
         <HemRelatedProducts />
+        <ServiceTwo />
         <VideoCard />
+       
         <FeaturedCause />
         <HemLastSection />
         <BrandCarousel extraClass="client-carousel__has-border-top" />
