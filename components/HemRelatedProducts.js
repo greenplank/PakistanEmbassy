@@ -49,7 +49,7 @@ const HemRelatedProducts = () => {
                                     <div className="mt-20 mb-20">
                                         <img src={Utomsuhbankar} className="img-fluid" alt="" />
                                         <div className="mt-20 text-center">
-                                            <h4 className="title"><b>Utomsuhbankar</b></h4>
+                                            <h4 className="title"><b>Utomhusbänkar</b></h4>
                                         </div>
                                     </div>
                                 </a>
@@ -59,7 +59,7 @@ const HemRelatedProducts = () => {
                                     <div className="mt-20 mb-20">
                                         <img src={Batgolv} className="img-fluid" alt="" />
                                         <div className="mt-20 text-center">
-                                            <h4 className="title"><b>Batgolv</b></h4>
+                                            <h4 className="title"><b>Båtgolv</b></h4>
                                         </div>
                                     </div>
                                 </a>

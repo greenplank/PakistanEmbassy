@@ -401,11 +401,11 @@ export default function ContactFormTwo() {
 
                   <select id='product' name='product' value={selected} onChange={changeSelectOptionHandler}>
                     <option>
-                      välj produkter...................</option>
-                    <option>Green Plank SMART™ Decking System – Smart Classic™</option>
-                    <option>Green Plank SMART™ Decking System – Smart Regular™</option>
-                    <option>Green Plank SMART™ Decking System – Smart Marine™</option>
-                    <option>Green Plank SMART™ Decking System – Smart Plus™</option>
+                      välj produkter..........................................</option>
+                    <option>Green Plank SMART™ Decking System - Smart Classic™</option>
+                    <option>Green Plank SMART™ Decking System - Smart Regular™</option>
+                    <option>Green Plank SMART™ Decking System - Smart Marine™</option>
+                    <option>Green Plank SMART™ Decking System - Smart Plus™</option>
                     <option>Green Plank SMART CAP™ Decking System</option>
                     <option>Green Plank MARINE 60™ Decking</option>
                     <option>Green Plank ENTRA™ Decking</option>
