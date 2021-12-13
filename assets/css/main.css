@@ -7254,8 +7254,8 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: hard-light;
-  border-bottom-left-radius: 230px;
-  border-bottom-right-radius: 230px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   position: relative;
