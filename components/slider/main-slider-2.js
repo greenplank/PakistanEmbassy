@@ -53,7 +53,7 @@ const MainSliderTwo = () => {
 
       <Hidden lgUp mdUp>
       <div className="col-lg-3 p-0" >
-        <section style={{ padding:isBigScreen? "7em 2em 3em 4em":isDesktopOrLaptop?"5em 2em 4em 4em":isTabletOrMobile?".1em 2em .1em 4em":isTabletOrMobile?"1em 2em .6em 4em":"5em 2em 4em 4em", background: "#8dd7a5"}}>
+        <section style={{ padding:isBigScreen? "7em 2em 3em 4em":isDesktopOrLaptop?"5em 2em 4em 4em":isTabletOrMobile?".1em 2em .1em 4em":isTabletOrMobile?"1em 2em .6em 4em":"5em 2em 4em 4em", background: "black"}}>
           <div>
             <div className="block-title text-left">
               <h3>
@@ -200,7 +200,7 @@ const MainSliderTwo = () => {
 
       <Hidden smDown>
       <div className="col-lg-3 p-0" >
-        <section id="hero-banner" style={{ padding:isBigScreen? "6em 2em 3em 4em":isBigSmallScreen?"5em 2em 1em 4em":isDesktopSHFile?"5em 2em 2em 4em":isDesktopnewfile?"5em 2em 3em 4em":isDesktopOrLaptop?"5em 2em 4em 4em":isDesktopOrLaptopmin?".1em 2em 4em 4em":isTabletmode?".1em 2em 3em 4em":isDesktoporLaptopminfile?".1em 2em 5em 4em":isTabletmode?".1em 2em 5em 4em":isTabletOrMobile?".1em 2em 3em 4em":isTabletOrMobile?"1em 2em .6em 4em":"5em 2em 4em 4em", background: "#8dd7a5"}}>
+        <section id="hero-banner" style={{ padding:isBigScreen? "6em 2em 3em 4em":isBigSmallScreen?"5em 2em 1em 4em":isDesktopSHFile?"5em 2em 2em 4em":isDesktopnewfile?"5em 2em 3em 4em":isDesktopOrLaptop?"5em 2em 4em 4em":isDesktopOrLaptopmin?".1em 2em 4em 4em":isTabletmode?".1em 2em 3em 4em":isDesktoporLaptopminfile?".1em 2em 5em 4em":isTabletmode?".1em 2em 5em 4em":isTabletOrMobile?".1em 2em 3em 4em":isTabletOrMobile?"1em 2em .6em 4em":"5em 2em 4em 4em", background: "black"}}>
           <div style={{fontSize:"12px"}}>
             <div className="block-title text-left">
               <h3>
