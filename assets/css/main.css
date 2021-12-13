@@ -1854,27 +1854,60 @@ h6 {
     max-width: 1200px;
   }
 }
-
-@media only screen and (max-width: 2420px) and (min-width: 1244px)  {
-#hero-banner{
-  padding: 6em 2em 8.75em 2em !important;
-}
-}
-
-@media only screen and (max-width: 1244px) and (min-width: 1200px)  {
+@media only screen and (max-width: 2648px) and (min-width: 1822px)  {
   #hero-banner{
-    padding: 7em 2em 1em 2em !important;
+    padding: 6em 2em 9em 2em !important;
   }
   }
-  @media only screen and (max-width: 1200px) and (min-width: 1020px)  {
+@media only screen and (max-width: 1822px) and (min-width: 1719px)  {
+  #hero-banner{
+    padding: 6em 2em 9em 2em !important;
+  }
+  }
+@media only screen and (max-width: 1719px) and (min-width: 1573px)  {
+  #hero-banner{
+    padding: 6em 2em 9em 2em !important;
+  }
+  }
+@media only screen and (max-width: 1573px) and (min-width: 1355px)  {
+  #hero-banner{
+    padding: 6em 2em 7.9em 2em !important;
+  }
+  }
+@media only screen and (max-width: 1355px) and (min-width: 1305px)  {
+  #hero-banner{
+    padding: 6em 2em 6.8em 2em !important;
+  }
+  }
+  @media only screen and (max-width: 1305px) and (min-width: 1244px)  {
     #hero-banner{
-      padding: 1em 1em 3em 2em !important;
+      padding: 7em 2em 4.6em 2em !important;
     }
     }
+@media only screen and (max-width: 1244px) and (min-width: 1228px)  {
+  #hero-banner{
+    padding: 7em 2em 4.6em 2em !important;
+  }
+  }
+@media only screen and (max-width: 1228px) and (min-width: 1200px)  {
+  #hero-banner{
+    padding: 7em 2em 3.5em 2em !important;
+  }
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 1156px)  {
+    #hero-banner{
+      padding: 1em 1em 5em 2em !important;
+    }
+    }
+    @media only screen and (max-width: 1156px) and (min-width: 1020px)  {
+      #hero-banner{
+        padding: 1em 1em 3.9em 2em !important;
+      }
+      }
     
     @media only screen and (max-width: 1020px) and (min-width: 992px)  {
       #hero-banner{
-        padding: 1em .4em 1em 2em !important;
+        padding: 1em .4em 3.9em 2em !important;
         margin-bottom: 2px;
       }
       }
