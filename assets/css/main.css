@@ -3682,7 +3682,7 @@ h6 {
 }
 
 .main-slider__two #main-slider-pagination {
-  left: auto;
+  /* left: auto; */
   right: 50%;
   text-align: right;
   -webkit-box-align: end;
