@@ -36,17 +36,7 @@ const MobileNav = () => {
           </li>
         </ul>
         <div className="mobile-nav__top">
-          {/* <div className="mobile-nav__language">
-            <img src={flag1} alt="" />
-            <label className="sr-only" htmlFor="language-select">
-              select language
-            </label>
-            <select className="selectpicker" id="language-select">
-              <option value="english">English</option>
-              <option value="arabic">Arabic</option>
-            </select>
-            <i className="fa fa-caret-down select-icon"></i>
-          </div> */}
+       
           <div className="mobile-nav__social">
             <a href="https://www.facebook.com/GreenplankSweden" aria-label="facebook">
               <i className="fab fa-facebook-square"></i>

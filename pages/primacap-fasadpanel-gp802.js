@@ -7,7 +7,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Head from "next/head";
 import Grid from '@material-ui/core/Grid';
 
-import Image11 from "../assets/images/products/innerPages/fasadpanel/GP802/image.webp";
+import Image11 from "../assets/images/products/innerPages/fasadpanel/GP802/fasadpanel-GP802.webp";
 
 import Imagecolor1 from "../assets/images/colors/primacap-fasadpanel-gp801/Charcoal.png";
 

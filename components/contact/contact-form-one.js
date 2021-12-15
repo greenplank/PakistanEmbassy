@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import BlockTitle from "../block-title";
 import TextField from '@material-ui/core/TextField';
-import { makeStyles} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
@@ -52,7 +52,7 @@ const ContactFormOne = () => {
         setOpen(false);
         setName("");
         setEmail("");
-      
+
         setMessage("");
         steAlert({ open: true, message: "Message sent successfully", backgroundColor: "#4BB543" })
       })(err => {
@@ -101,11 +101,12 @@ const ContactFormOne = () => {
           setEmailHelper("")
         }
         break;
-     
+
       default:
         break;
     }
   }
+  
   const buttonContents = (
     <React.Fragment>
       Skicka meddelande
@@ -116,15 +117,16 @@ const ContactFormOne = () => {
     <section className="contact-page pt-120 pb-80">
       <Container>
         <Row>
-          <Col lg={5}>
+          <Col lg={4}>
             <div className="contact-page__content mb-40">
               <BlockTitle
                 title={`Skriv gärna till oss \n ett meddelande.`}
                 tagLine="Kontakta oss"
               />
-              <p className="block-text mb-30 pr-10">
+              {/* <p className="block-text mb-30 pr-10">
                 Han inspirerades av talet som hölls av en amerikansk professor om hållbara byggprodukter med träliknande egenskaper och utseende av en blandning av återvunnen plast och naturligt avfall som risskal, vetestrå, sågspån, bambuflis, kokosnötskal, sojabönor, jordnötsskal, bomullsstrå etc.{" "}
-              </p>
+              </p> */}
+
               <div className="footer-social black-hover">
 
                 <a href="https://www.facebook.com/GreenplankSweden" aria-label="facebook">
@@ -143,8 +145,8 @@ const ContactFormOne = () => {
               </div>
             </div>
           </Col>
-          <Col lg={7} style={{paddingTop: "2em" }}>
-            <form className="contact-form-validated contact-page__form form-one mb-40"  onSubmit={sendEmail}>
+          <Col lg={8} style={{ paddingTop: "2em" }}>
+            <form className="contact-form-validated contact-page__form form-one mb-40" onSubmit={sendEmail}>
               <div className="row row-10">
 
                 <div className="col-md-6 col-12 mb-20">
@@ -154,7 +156,7 @@ const ContactFormOne = () => {
                   <TextField variant="outlined" helperText={emailHelper} error={emailHelper.length !== 0} name="email" fullWidth label="Ange din e-postadress" id="email" value={email} onChange={onChange} />
                 </div>
                 <div className="col-12 mb-20">
-                  <TextField variant="outlined" fullWidth label="Subject" name="subject" id="subject" value={subject} onChange={(event) => setSubject(event.target.value)} />
+                  <TextField variant="outlined" fullWidth label="Ämne" name="subject" id="subject" value={subject} onChange={(event) => setSubject(event.target.value)} />
                 </div>
                 <div className="col-12 mb-20">
                   <TextField variant="outlined" fullWidth label="Ange ditt meddelande " name="message" InputProps={{ disableUnderline: true }} id="message" multiline rows={10} value={message} onChange={(event) => setMessage(event.target.value)} />

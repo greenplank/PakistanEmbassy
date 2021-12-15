@@ -44,7 +44,7 @@ const Layout = ({ pageTitle, children }) => {
         {children}
       </div>
       <MobileNav />
-      <SearchPopup />
+      {/* <SearchPopup /> */}
     </div>
   );
 };

@@ -4,12 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
-import banner1 from "../../assets/images/main-slider/slider1.webp";
-import banner2 from "../../assets/images/main-slider/slider2.webp";
-import banner3 from "../../assets/images/main-slider/slider3.webp";
-import banner4 from "../../assets/images/main-slider/slider4.webp";
-import banner5 from "../../assets/images/main-slider/slider5.webp";
-import banner6 from "../../assets/images/main-slider/slider6.webp";
+import banner1 from "../../assets/images/main-slider/DenmarkSlider.webp";
+import banner2 from "../../assets/images/main-slider/AustriaSlider.webp";
+import banner3 from "../../assets/images/main-slider/GermanySlider.webp";
+import banner4 from "../../assets/images/main-slider/NorwaySlider.webp";
+import banner5 from "../../assets/images/main-slider/SwedenSlider.webp";
+import banner6 from "../../assets/images/main-slider/HollandSlider.webp";
 
 import icon1 from "../../assets/images/main-slider/Denmark.png";
 import icon2 from "../../assets/images/main-slider/Austria.png";

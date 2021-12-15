@@ -5,7 +5,7 @@ import cardBg from "../../assets/images/shapes/contact-card-bg-1-1.png";
 const ContactCardCarousel = () => {
   const swiperOptions = {
     spaceBetween: 30,
-    slidesPerView: 3,
+    slidesPerView: 2,
     breakpoints: {
       0: {
         spaceBetween: 0,
@@ -29,18 +29,6 @@ const ContactCardCarousel = () => {
     <div className="contact-card-carousel ">
       <div className="container">
         <Swiper {...swiperOptions}>
-          <SwiperSlide>
-            <div
-              className="contact-card d-flex flex-column text-center justify-content-center align-items-center background-secondary"
-              style={{ backgroundImage: `url(${cardBg})` }}
-            >
-              <i aria-label="contact icon" className="azino-icon-family"></i>
-              <h3>Handla om</h3>
-              <p>
-              Green Plank-produkter används av många svenska <br />kommuner över hela Sverige
-              </p>
-            </div>
-          </SwiperSlide>
           <SwiperSlide>
             <div
               className="contact-card d-flex flex-column text-center justify-content-center align-items-center background-primary"

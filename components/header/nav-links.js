@@ -25,7 +25,7 @@ const NavLinks = ({ extraClassName }) => {
       </li>
       <li>
         <Link href="/aterfarsaljare">
-          <a>Aterfarsaljare</a>
+          <a>Återförsäljare</a>
         </Link>
       </li>
       <li>

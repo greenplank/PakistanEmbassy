@@ -7,7 +7,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import Grid from '@material-ui/core/Grid';
 import Head from "next/head";
-import Image11 from "../assets/images/products/innerPages/fasadpanel/GP798/image.webp";
+import Image11 from "../assets/images/products/innerPages/fasadpanel/GP798/fasadpanel-GP798.webp";
 
 import Imagecolor1 from "../assets/images/colors/fasadpanel-gp798/Falun-Red.png";
 import Imagecolor2 from "../assets/images/colors/fasadpanel-gp798/Charcoal.png";
@@ -17,10 +17,7 @@ import Imagecolor3 from "../assets/images/colors/fasadpanel-gp798/Beach-Gray.png
 import Imagesurface from "../assets/images/surface/Asset-76-8.png";
 
 import pdfimg1 from "../assets/images/projects/greenplank-brochure-title-1.jpg";
-import pdfimg2 from "../assets/images/projects/pic.png";
 import pdfimg3 from "../assets/images/projects/pic1.png";
-import pdfimg4 from "../assets/images/projects/swedish.png";
-import pdfimg5 from "../assets/images/projects/greenplank-tds-composite-technical-data-sheet-1.jpg";
 
 import Footer from "../components/footer";
 

@@ -37,7 +37,7 @@ const classicTeak = () => {
             <Layout pageTitle="classic-teak-komposittrall">
                 <HeaderTwo />
                 <StickyHeader />
-                <PageHeader title="Classic-teak-komposittrall" crumbTitle="classic-teak-komposittrall" />
+                <PageHeader title="Classic-teak-komposittrall" crumb="Classic Komposittrall" crumbTitle="classic-teak-komposittrall" />
                 <section className="blog-details pt-120 pb-40">
                     <Container>
                         <Row>
