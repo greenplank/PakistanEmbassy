@@ -593,7 +593,7 @@ export default function ContactFormTwo() {
                 </div>
                 <div className="col-12 mb-20">
                   <ReCAPTCHA
-                    sitekey="6LfVNqcdAAAAAPTVsVw5qBOv5NvQxMQlIN-13Dhw"
+                    sitekey="6LeQSqcdAAAAAGysd35FQNq7e8_WPtj6QroHtXVY"
                     onChange={onChange}
                   />
                 </div>
