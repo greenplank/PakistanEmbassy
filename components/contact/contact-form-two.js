@@ -9,6 +9,7 @@ import CheckBoxIcon from '@material-ui/icons/CheckBox';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Checkbox from "@material-ui/core/Checkbox";
 import { Container, Row, Col } from "react-bootstrap";
+import ReCAPTCHA from "react-google-recaptcha";
 
 import emailjs from 'emailjs-com';
 import { init } from 'emailjs-com';
@@ -72,8 +73,14 @@ export default function ContactFormTwo() {
 
   const [selected, setSelected] = React.useState("");
 
+  const [colorselected, setColorselected] = React.useState("");
+
   const changeSelectOptionHandler = (event) => {
     setSelected(event.target.value);
+  };
+
+  const changeSelectOption = (event) => {
+    setColorselected(event.target.value);
   };
 
   const classes = useStyles()
@@ -397,14 +404,13 @@ export default function ContactFormTwo() {
                   <p className="mb-40">Skicka en betalning på 100 kr till följande Gankgiro – 5902-1543: För att beställa ett prov. (Priset på provbiten är gratis. detta är endast för att täcka fraktkostnaden.)
                   </p>
                 </div>
-                <div className=" col-12 mb-20">
-
+                <div className="col-12 mb-20">
                   <select id='product' name='product' value={selected} onChange={changeSelectOptionHandler}>
                     <option>
                       välj produkter..........................................</option>
-                    <option>Green Plank SMART™ Decking System - Smart Classic™</option>
-                    <option>Green Plank SMART™ Decking System - Smart Regular™</option>
-                    <option>Green Plank SMART™ Decking System - Smart Marine™</option>
+                    <option>Green Plank SMART™ Decking System – Smart Classic™</option>
+                    <option>Green Plank SMART™ Decking System – Smart Regular™</option>
+                    <option>Green Plank SMART™ Decking System – Smart Marine™</option>
                     <option>Green Plank SMART™ Decking System - Smart Plus™</option>
                     <option>Green Plank SMART CAP™ Decking System</option>
                     <option>Green Plank MARINE 60™ Decking</option>
@@ -435,12 +441,11 @@ export default function ContactFormTwo() {
                     <option>NATURPLANK™ Composite Plank – GP733 (10*130mm)</option>
                     <option>NATURPLANK™ Composite Plank – GP734 (10*230mm)</option>
                   </select>
-
                 </div>
 
                 <div className="col-12 mb-20">
 
-                  <select id='color' name='color' value={selected} fullWidth label="Color">
+                  <select id='color' name='color' value={colorselected} fullWidth label="Color" onChange={changeSelectOption}>
 
                     {options}
                   </select>
@@ -451,9 +456,10 @@ export default function ContactFormTwo() {
                     fullWidth
                     name="name"
                     label="FÖRNAMN"
-                    value={name} 
+                    value={name}
                     onChange={(event) => setName(event.target.value)}
                     variant="filled"
+
                   />
                 </div>
                 <div className="col-md-6 col-12 mb-20">
@@ -469,11 +475,11 @@ export default function ContactFormTwo() {
                 </div>
                 <div className="col-md-6 col-12 mb-20">
                   <TextField
-                   id="email"
+                    id="email"
                     fullWidth
                     name="email"
                     label="E-POSTADRESS"
-                    helperText={emailHelper} 
+                    helperText={emailHelper}
                     error={emailHelper.length !== 0}
                     value={email}
                     onChange={onChange}
@@ -482,89 +488,89 @@ export default function ContactFormTwo() {
                 </div>
                 <div className="col-md-6 col-12 mb-20">
                   <TextField
-                   id="phone"
+                    id="phone"
                     fullWidth
                     name="phone"
                     label="TELEFONNUMMER"
-                    helperText={phoneHelper} 
+                    helperText={phoneHelper}
                     error={phoneHelper.length !== 0}
-                    value={phone} 
+                    value={phone}
                     onChange={onChange}
                     variant="filled"
                   />
                 </div>
                 <div className="col-md-6 col-12 mb-20">
                   <TextField
-                   id="adress"
+                    id="adress"
                     fullWidth
                     name="address"
                     label="Adress"
-                    helperText={phoneHelper} 
+                    helperText={phoneHelper}
                     error={phoneHelper.length !== 0}
-                    value={adress} 
+                    value={adress}
                     onChange={(event) => setAdress(event.target.value)}
                     variant="filled"
                   />
                 </div>
                 <div className="col-md-6 col-12 mb-20">
                   <TextField
-                  id="postnumber"
+                    id="postnumber"
                     fullWidth
                     name="postnumber"
                     label="Postnummer"
-                    helperText={phoneHelper} 
+                    helperText={phoneHelper}
                     error={phoneHelper.length !== 0}
-                    value={postnumber} 
+                    value={postnumber}
                     onChange={(event) => setPostnumber(event.target.value)}
                     variant="filled"
                   />
                 </div>
                 <div className="col-md-6 col-12 mb-20">
                   <TextField
-                  id="country"
+                    id="country"
                     fullWidth
                     name="country"
                     controlId="formGridState"
                     label="Land"
-                    value={country} 
+                    value={country}
                     onChange={(event) => setCountry(event.target.value)}
                     variant="filled"
                   />
                 </div>
                 <div className="col-md-6 col-12 mb-20">
                   <TextField
-                  id="city" 
+                    id="city"
                     fullWidth
                     name="city"
                     controlId="formGridCity"
                     label="Stad"
-                    value={city} 
+                    value={city}
                     onChange={(event) => setCity(event.target.value)}
                     variant="filled"
                   />
                 </div>
                 <div className="col-12 mb-20">
                   <TextField
-                  id="subject"
+                    id="subject"
                     fullWidth
                     name="subject"
                     controlId="formGridCity"
                     label="Subject"
-                    value={subject} 
+                    value={subject}
                     onChange={(event) => setSubject(event.target.value)}
                     variant="filled"
                   />
                 </div>
                 <div className="col-12 mb-20">
                   <TextField
-                  id="message"
+                    id="message"
                     fullWidth
                     name="message"
                     controlId="formGridCity"
                     label="Meddelande "
                     InputProps={{ disableUnderline: true }}
-                    multiline rows={10} 
-                    value={message} 
+                    multiline rows={10}
+                    value={message}
                     onChange={(event) => setMessage(event.target.value)}
                     variant="filled"
                   />
@@ -583,6 +589,12 @@ export default function ContactFormTwo() {
                       />
                     }
                     label="Jag godkänner villkoren"
+                  />
+                </div>
+                <div className="col-12 mb-20">
+                  <ReCAPTCHA
+                    sitekey="6LfVNqcdAAAAAPTVsVw5qBOv5NvQxMQlIN-13Dhw"
+                    onChange={onChange}
                   />
                 </div>
                 <div className="col-md-6 col-12 mb-20">
