@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import TextField from '@material-ui/core/TextField';
+import MenuItem from '@material-ui/core/MenuItem';
 import { makeStyles, useTheme } from '@material-ui/core/styles'
 // import airplane from '../assets/send.svg'
 import Button from '@material-ui/core/Button';
@@ -151,9 +152,144 @@ export default function ContactFormTwo() {
   const buttonContents = (
     <React.Fragment>
       SKICKA IN
-      {/* <img src={airplane} alt="paper airplane" style={{ marginLeft: "1em" }} /> */}
     </React.Fragment>
   )
+
+  // const currencies = [
+  //   {
+  //     value: 'Select',
+  //     label: ' välj produkter..............................................................',
+  //   },
+  //   {
+  //     value: 'classic',
+  //     label: 'Green Plank SMART™ Decking System – Smart Classic™',
+  //   },
+  //   {
+  //     value: 'Regular',
+  //     label: 'Green Plank SMART™ Decking System – Smart Regular™',
+  //   },
+  //   {
+  //     value: 'SmartMarine',
+  //     label: 'Green Plank SMART™ Decking System – Smart Marine™',
+  //   },
+  //   {
+  //     value: 'Plus',
+  //     label: 'Green Plank SMART™ Decking System - Smart Plus™',
+  //   },
+  //   {
+  //     value: 'CAP',
+  //     label: 'Green Plank SMART CAP™ Decking System',
+  //   },
+  //   {
+  //     value: 'MARINE60',
+  //     label: 'Green Plank MARINE 60™ Decking',
+  //   },
+  //   {
+  //     value: 'Entra',
+  //     label: 'Green Plank ENTRA™ Decking',
+  //   },
+  //   {
+  //     value: 'Marine40',
+  //     label: 'Green Plank MARINE 40™ Decking',
+  //   },
+  //   {
+  //     value: 'MarineJumbo',
+  //     label: 'Green Plank MARINE JUMBO™ Heavy Duty Decking',
+  //   },
+  //   {
+  //     value: 'MarineCap',
+  //     label: 'Green Plank MARINE CAP™ Decking',
+  //   },
+  //   {
+  //     value: 'MarineArt',
+  //     label: 'Green Plank MARINE ART™ Decking',
+  //   },
+  //   {
+  //     value: 'ClassicDecking',
+  //     label: 'Green Plank CLASSIC™ Decking',
+  //   },
+  //   {
+  //     value: 'Sapphire',
+  //     label: 'Green Plank SAPPHIRE™ Decking',
+  //   },
+  //   {
+  //     value: 'Everdeck',
+  //     label: 'Green Plank EVERDECK™ Decking',
+  //   },
+  //   {
+  //     value: 'PrimacapGP802',
+  //     label: 'Green Plank PRIMACAP™ Facade Cladding – GP802',
+  //   },
+  //   {
+  //     value: 'PrimacapGP801',
+  //     label: 'Green Plank PRIMACAP™ Facade Cladding – GP801',
+  //   },
+  //   {
+  //     value: 'NovocladGP798',
+  //     label: 'Green Plank NOVOCLAD™ Facade Cladding – GP798',
+  //   },
+  //   {
+  //     value: 'NovofencePrivate',
+  //     label: 'Green Plank NOVOFENCE™ Private™',
+  //   },
+  //   {
+  //     value: 'NovofenceTraditional',
+  //     label: 'Green Plank NOVOFENCE™ Traditional™',
+  //   },
+  //   {
+  //     value: 'NovofenceModern',
+  //     label: 'Green Plank NOVOFENCE™ Modern™',
+  //   },
+  //   {
+  //     value: 'NaturplankGP7129',
+  //     label: 'NATURPLANK™ Composite Plank – GP7129 (40*140mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP7121',
+  //     label: 'NATURPLANK™ Composite Plank – GP7121 (24*140mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP7241',
+  //     label: '  NATURTEAK™ Composite Plank – GP7241 (7*236mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP729',
+  //     label: 'NATURPLANK™ Wide Board – GP729 (20*305mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP7117',
+  //     label: ' NATURPLANK™ Composite Plank – GP7117 (17*68mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP7118',
+  //     label: '    NATURPLANK™ Composite Plank – GP7118 (27*49mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP7165',
+  //     label: ' NATURPLANK™ Composite Plank – GP7165 (40*70mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP7119',
+  //     label: 'NATURPLANK™ Composite Plank – GP7119 (40*90mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP7120',
+  //     label: 'NATURPLANK™ Composite Plank – GP7120 (34*72mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP709',
+  //     label: 'NATURPLANK™ Composite Plank – GP709 (10*80mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP733',
+  //     label: 'NATURPLANK™ Composite Plank – GP733 (10*130mm)',
+  //   },
+  //   {
+  //     value: 'NaturplankGP734',
+  //     label: 'NATURPLANK™ Composite Plank – GP734 (10*230mm)',
+  //   },
+  // ];
+
 
   const SmartClassic = [
     "Cloudy Grey",
@@ -450,6 +586,37 @@ export default function ContactFormTwo() {
                     {options}
                   </select>
                 </div>
+                {/* <div className="col-md-6 col-12 mb-20">
+                  <TextField
+                    id='product' 
+                    fullWidth
+                    name='product'
+                    select
+                    value={selected} onChange={changeSelectOptionHandler}
+                    SelectProps={{
+                      native: true,
+                    }}
+                    variant="filled"
+                  >
+                    {currencies.map((option) => (
+                      <option key={option.value} value={option.value}>
+                        {option.label}
+                      </option>
+                    ))}
+                  </TextField>
+                </div>
+                <div className="col-md-6 col-12 mb-20">
+                  <TextField
+                   id='color' 
+                    fullWidth
+                    name='color' 
+                    select
+                    value={colorselected} onChange={changeSelectOption}
+                    variant="filled"
+                  >
+                    {options}
+                  </TextField>
+                </div> */}
                 <div className="col-md-6 col-12 mb-20">
                   <TextField
                     id="name"
