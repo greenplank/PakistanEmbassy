@@ -241,7 +241,9 @@ const fasadpanelgp802 = () => {
                               </a>
                             </Grid>
                             <Grid item xs={6} sm={2}>
-
+                            <a target="_blank" href="/pdfs/Green-Plank-Prima-Cap.pdf">
+                                <img src={pdfimg5} className="img-fluid" alt="" />
+                              </a>
                             </Grid>
 
                           </Grid>
