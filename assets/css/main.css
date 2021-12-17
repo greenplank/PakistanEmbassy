@@ -3696,7 +3696,7 @@ h6 {
 # Page Header
 --------------------------------------------------------------*/
 .page-header {
-  background-color: var(--thm-black);
+  /* background-color: var(--thm-black); */
   position: relative;
   height:350px;
 }
@@ -3707,8 +3707,8 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
   opacity: 1;
   background-repeat: no-repeat;
   background-size: cover;

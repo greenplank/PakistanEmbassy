@@ -746,7 +746,7 @@ export default function ContactFormTwo() {
                   <FormControlLabel
                     control={
                       <Checkbox
-                        icon={<CheckBoxOutlineBlankIcon fontSize="small" />}
+                        // icon={<CheckBoxOutlineBlankIcon fontSize="small" />}
                         checkedIcon={<CheckBoxIcon fontSize="small" />}
                         value="checkedI"
                         classes={{
