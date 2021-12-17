@@ -20,7 +20,7 @@ const HomeTwo = () => {
   return (
     <>
       <Head>
-      <meta name="robots" content="NOINDEX,NOFOLLOW"/>
+      <meta name="robots" content="INDEX,FOLLOW"/>
         <meta name="title" content="Bästa komposittrall | golvplattor | staket och många fler!" />
         <meta name="description" content="Green Plank är det ledande svenska varumärket för hållbara byggprodukter i Sverige. Skandinavisk kvalitets Komposittrall, Fasadbeklädnad, Plankor, Staket." />
       </Head>
