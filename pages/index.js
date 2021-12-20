@@ -20,7 +20,7 @@ const HomeTwo = () => {
   return (
     <>
       <Head>
-      <meta name="robots" content="INDEX,FOLLOW"/>
+        <meta name="robots" content="INDEX,FOLLOW" />
         <meta name="title" content="Bästa komposittrall | golvplattor | staket och många fler!" />
         <meta name="description" content="Green Plank är det ledande svenska varumärket för hållbara byggprodukter i Sverige. Skandinavisk kvalitets Komposittrall, Fasadbeklädnad, Plankor, Staket." />
       </Head>
@@ -38,6 +38,26 @@ const HomeTwo = () => {
         <BrandCarousel extraClass="client-carousel__has-border-top" />
         <Footer />
       </Layout>
+
+
+
+
+      <div class="alert text-center cookiealert" role="alert">
+        Vi använder cookies på vår webbplats för att ge dig den mest relevanta upplevelsen genom att komma ihåg dina preferenser och upprepade besök. Genom att klicka på "Acceptera" godkänner du att ALLA cookies används
+        <a href="https://www.greenplank.se/integritetspolicy" target="_blank"> Läs mer</a>
+
+        <button type="button" class="btn btn-primary btn-sm acceptcookies">
+          jag håller med
+        </button>
+      </div>
+
+      <script>
+        for (var i = 1; i= 150; i++)
+        document.querySelector("#fillme").innerHTML += "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+      </script>
+
+      <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+
     </>
   );
 };
