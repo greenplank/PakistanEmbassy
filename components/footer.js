@@ -181,7 +181,7 @@ const Footer = () => {
           >
             <i className="far fa-angle-up"></i>
           </ScrollLink>
-          <p>© Copyright 2020 by Ecomin.se</p>
+          <p>© Copyright 2020 by <a href="https://www.ecomin.se/">Ecomin.se</a></p>
           <div className="footer-social">
            
             <a href="https://www.facebook.com/GreenplankSweden" aria-label="facebook">
