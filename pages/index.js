@@ -4,9 +4,14 @@ import HeaderTwo from "../components/header/header-two";
 import VideoCards from "../components/header/videoCard";
 import StickyHeader from "../components/header/sticky-header";
 import MainSliderTwo from "../components/slider/main-slider-2";
+import AboutOne from "../components/about/about-one";
+import AboutTwo from "../components/about/about-two";
+import AboutThree from "../components/about/about-three";
+import AboutFour from "../components/about/about-four";
+import AboutFive from "../components/about/about-five";
 import VideoCard from "../components/videos/video-card";
 import HemRelatedProducts from "../components/HemRelatedProducts";
-import HemGallery from "../components/HemGallery";
+import HomeSection2 from "../components/HomeSection2";
 import FeaturedCause from "../components/featured-cause";
 import ServiceTwo from "../components/services/service-two";
 import HemLastSection from "../components/HemLastSection";
@@ -21,43 +26,21 @@ const HomeTwo = () => {
     <>
       <Head>
         <meta name="robots" content="INDEX,FOLLOW" />
-        <meta name="title" content="Bästa komposittrall | golvplattor | staket och många fler!" />
-        <meta name="description" content="Green Plank är det ledande svenska varumärket för hållbara byggprodukter i Sverige. Skandinavisk kvalitets Komposittrall, Fasadbeklädnad, Plankor, Staket." />
+        <meta name="title" content="Embassy of Pakistan" />
+        <meta name="description" content="Embassy of Pakistan" />
       </Head>
-      <Layout pageTitle="Bästa komposittrall | golvplattor | staket och många fler!">
+      <Layout pageTitle="Embassy of Pakistan">
         <HeaderTwo />
         <StickyHeader extraClassName="stricky-header-two" />
         <MainSliderTwo />
-        <VideoCards />
-        <HemGallery />
-        <HemRelatedProducts />
-        <ServiceTwo />
-        <VideoCard />
-        <FeaturedCause />
-        <HemLastSection />
-        <BrandCarousel extraClass="client-carousel__has-border-top" />
+        <HomeSection2 />
+        <AboutOne />
+        <AboutTwo/>
+        <AboutThree/>
+        <AboutFour/>
+        <AboutFive/>
         <Footer />
       </Layout>
-
-
-
-
-      <div class="alert text-center cookiealert" role="alert">
-        Vi använder cookies på vår webbplats för att ge dig den mest relevanta upplevelsen genom att komma ihåg dina preferenser och upprepade besök. Genom att klicka på "Acceptera" godkänner du att ALLA cookies används
-        <a href="https://www.greenplank.se/integritetspolicy" target="_blank"> Läs mer</a>
-
-        <button type="button" class="btn btn-primary btn-sm acceptcookies">
-          jag håller med
-        </button>
-      </div>
-
-      <script>
-        for (var i = 1; i= 150; i++)
-        document.querySelector("#fillme").innerHTML += "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
-      </script>
-
-      <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
-
     </>
   );
 };

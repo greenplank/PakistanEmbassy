@@ -35,6 +35,8 @@ const Layout = ({ pageTitle, children }) => {
           href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
           rel="stylesheet"
         />
+        <script src="https://use.fontawesome.com/cb27b327b5.js"></script>
+
         <link
           href="https://fonts.googleapis.com/css?family=Poppins:300,400"
           rel="stylesheet"

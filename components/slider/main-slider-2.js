@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
-import banner1 from "../../assets/images/main-slider/DenmarkSlider.webp";
+import banner1 from "../../assets/images/main-slider/Mask_Group_1.png";
 import banner2 from "../../assets/images/main-slider/AustriaSlider.webp";
 import banner3 from "../../assets/images/main-slider/GermanySlider.webp";
 import banner4 from "../../assets/images/main-slider/NorwaySlider.webp";
@@ -52,7 +52,7 @@ const MainSliderTwo = () => {
     <div className="row">
 
       <Hidden lgUp mdUp>
-        <div className="col-lg-3 p-0" >
+        {/* <div className="col-lg-3 p-0" >
           <section style={{ padding: isBigScreen ? "7em 2em 3em 4em" : isDesktopOrLaptop ? "5em 2em 4em 4em" : isTabletOrMobile ? ".1em 2em .1em 4em" : isTabletOrMobile ? "1em 2em .6em 4em" : "5em 2em 4em 4em", background: "black" }}>
             <div>
               <div className="block-title text-left">
@@ -102,7 +102,7 @@ const MainSliderTwo = () => {
               </Grid>
             </div>
           </section>
-        </div>
+        </div> */}
         <div className="col-lg-9 p-0">
           <section className="main-slider main-slider__two">
             <Swiper {...mainSlideOptions}>
@@ -200,398 +200,23 @@ const MainSliderTwo = () => {
       <Hidden smDown>
         <div className="col-lg-12 p-0">
           <section className="main-slider main-slider__two">
+        
             <Swiper {...mainSlideOptions}>
-              <SwiperSlide>
+              
                 <div
                   className="image-layer"
                   style={{ backgroundImage: `url(${banner1})` }}
                 ></div>
 
                 <Container>
-                  <Row className=" justify-content-start">
-                    <Col lg={6} className="text-left">
-                      <section style={{marginTop:"-8em"}}>
-                        <div >
-                          <div className="block-title text-left">
-                            <h3>
-                              <span style={{ color: "white",fontSize: "76px"  }}>Green Plank</span>
-                            </h3>
-                          </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
-                            Miljövänlig komposit produkter med lågt underhåll
-                          </h2>
+                 <Row>
 
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-komposittrall" className="thm-btn thm-btn3 rounded-pill" >Smart komposittrall</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="https://deckplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Trall Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-vs-traditionell" className="thm-btn thm-btn3 rounded-pill" >Smart vs Traditionell</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="http://fenceplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Staket Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="ihalig-vs-massiv" className="thm-btn thm-btn3 rounded-pill" >Ihålig vs Massiv</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="hitta-hantverkare" className="thm-btn thm-btn3 rounded-pill" >Hitta Hantverkare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="galleri" className="thm-btn thm-btn3 rounded-pill" >Inspiration</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="aterfarsaljare" className="thm-btn thm-btn3 rounded-pill">Återförsäljare</a>
-                            </Grid>
-
-                          </Grid>
-                        </div>
-                      </section>
-                    </Col>
-                    <Col lg={3} className="text-left">
-
-                      <img src={icon1} alt="icon1" />
-                    </Col>
-                  </Row>
+                 </Row>
                 </Container>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div
-                  className="image-layer"
-                  style={{ backgroundImage: `url(${banner2})`}}
-                ></div>
-                <Container>
-                  <Row className=" justify-content-start">
-                  <Col lg={6} className="text-left">
-                      <section style={{marginTop:"-8em"}}> 
-                        <div >
-                          <div className="block-title text-left">
-                            <h3>
-                              <span style={{ color: "white",fontSize: "76px" }}>Green Plank</span>
-                            </h3>
-                          </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
-                            Miljövänlig komposit produkter med lågt underhåll
-                          </h2>
-
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-komposittrall" className="thm-btn thm-btn3 rounded-pill" >Smart komposittrall</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="https://deckplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Trall Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-vs-traditionell" className="thm-btn thm-btn3 rounded-pill" >Smart vs Traditionell</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="http://fenceplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Staket Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="ihalig-vs-massiv" className="thm-btn thm-btn3 rounded-pill" >Ihålig vs Massiv</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="hitta-hantverkare" className="thm-btn thm-btn3 rounded-pill" >Hitta Hantverkare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="galleri" className="thm-btn thm-btn3 rounded-pill" >Inspiration</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="aterfarsaljare" className="thm-btn thm-btn3 rounded-pill">Återförsäljare</a>
-                            </Grid>
-
-                          </Grid>
-                        </div>
-                      </section>
-                    </Col>
-                    <Col lg={3} className="text-left">
-                      <img src={icon2} alt="icon2" />
-                    </Col>
-                  </Row>
-                </Container>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div
-                  className="image-layer"
-                  style={{ backgroundImage: `url(${banner3})` }}
-                ></div>
-
-                <Container>
-                  <Row className="justify-content-start">
-                  <Col lg={6} className="text-left">
-                      <section style={{marginTop:"-8em"}}>
-                        <div >
-                          <div className="block-title text-left">
-                            <h3>
-                              <span style={{ color: "white",fontSize: "76px" }}>Green Plank</span>
-                            </h3>
-                          </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
-                            Miljövänlig komposit produkter med lågt underhåll
-                          </h2>
-
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-komposittrall" className="thm-btn thm-btn3 rounded-pill" >Smart komposittrall</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="https://deckplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Trall Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-vs-traditionell" className="thm-btn thm-btn3 rounded-pill" >Smart vs Traditionell</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="http://fenceplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Staket Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="ihalig-vs-massiv" className="thm-btn thm-btn3 rounded-pill" >Ihålig vs Massiv</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="hitta-hantverkare" className="thm-btn thm-btn3 rounded-pill" >Hitta Hantverkare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="galleri" className="thm-btn thm-btn3 rounded-pill" >Inspiration</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="aterfarsaljare" className="thm-btn thm-btn3 rounded-pill">Återförsäljare</a>
-                            </Grid>
-
-                          </Grid>
-                        </div>
-                      </section>
-                    </Col>
-                    <Col lg={3} className="text-left">
-                      <img src={icon3} alt="icon3" />
-                    </Col>
-                  </Row>
-                </Container>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div
-                  className="image-layer"
-                  style={{ backgroundImage: `url(${banner4})` }}
-                ></div>
-
-                <Container>
-                  <Row className="justify-content-start">
-                  <Col lg={6} className="text-left">
-                      <section style={{marginTop:"-8em"}}>
-                        <div >
-                          <div className="block-title text-left">
-                            <h3>
-                              <span style={{ color: "white",fontSize: "76px" }}>Green Plank</span>
-                            </h3>
-                          </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
-                            Miljövänlig komposit produkter med lågt underhåll
-                          </h2>
-
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-komposittrall" className="thm-btn thm-btn3 rounded-pill" >Smart komposittrall</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="https://deckplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Trall Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-vs-traditionell" className="thm-btn thm-btn3 rounded-pill" >Smart vs Traditionell</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="http://fenceplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Staket Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="ihalig-vs-massiv" className="thm-btn thm-btn3 rounded-pill" >Ihålig vs Massiv</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="hitta-hantverkare" className="thm-btn thm-btn3 rounded-pill" >Hitta Hantverkare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="galleri" className="thm-btn thm-btn3 rounded-pill" >Inspiration</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="aterfarsaljare" className="thm-btn thm-btn3 rounded-pill">Återförsäljare</a>
-                            </Grid>
-
-                          </Grid>
-                        </div>
-                      </section>
-                    </Col>
-                    <Col lg={3} className="text-left">
-                      <img src={icon4} alt="icon4" />
-                    </Col>
-                  </Row>
-                </Container>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div
-                  className="image-layer"
-                  style={{ backgroundImage: `url(${banner5})` }}
-                ></div>
-
-                <Container>
-                  <Row className="justify-content-start">
-                  <Col lg={6} className="text-left">
-                      <section style={{marginTop:"-8em"}}>
-                        <div >
-                          <div className="block-title text-left">
-                            <h3>
-                              <span style={{ color: "white",fontSize: "76px" }}>Green Plank</span>
-                            </h3>
-                          </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
-                            Miljövänlig komposit produkter med lågt underhåll
-                          </h2>
-
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-komposittrall" className="thm-btn thm-btn3 rounded-pill" >Smart komposittrall</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="https://deckplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Trall Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-vs-traditionell" className="thm-btn thm-btn3 rounded-pill" >Smart vs Traditionell</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="http://fenceplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Staket Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="ihalig-vs-massiv" className="thm-btn thm-btn3 rounded-pill" >Ihålig vs Massiv</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="hitta-hantverkare" className="thm-btn thm-btn3 rounded-pill" >Hitta Hantverkare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="galleri" className="thm-btn thm-btn3 rounded-pill" >Inspiration</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="aterfarsaljare" className="thm-btn thm-btn3 rounded-pill">Återförsäljare</a>
-                            </Grid>
-
-                          </Grid>
-                        </div>
-                      </section>
-                    </Col>
-                    <Col lg={3} className="text-left">
-                      <img src={icon5} alt="icon5" />
-                    </Col>
-                  </Row>
-                </Container>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div
-                  className="image-layer"
-                  style={{ backgroundImage: `url(${banner6})` }}
-                ></div>
-
-                <Container>
-                  <Row className="justify-content-start">
-                  <Col lg={6} className="text-left">
-                      <section style={{marginTop:"-8em"}}>
-                        <div >
-                          <div className="block-title text-left">
-                            <h3>
-                              <span style={{ color: "white",fontSize: "76px"  }}>Green Plank</span>
-                            </h3>
-                          </div>
-                          <h2 style={{ marginBottom: "1em", color: "white", fontSize: "2rem" }}>
-                            Miljövänlig komposit produkter med lågt underhåll
-                          </h2>
-
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-komposittrall" className="thm-btn thm-btn3 rounded-pill" >Smart komposittrall</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="https://deckplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Trall Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3} >
-                            <Grid item xs={6} sm={6} >
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="smart-vs-traditionell" className="thm-btn thm-btn3 rounded-pill" >Smart vs Traditionell</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="http://fenceplanner.greenplank.eu/" className="thm-btn thm-btn3 rounded-pill" >Staket Planerare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="ihalig-vs-massiv" className="thm-btn thm-btn3 rounded-pill" >Ihålig vs Massiv</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="hitta-hantverkare" className="thm-btn thm-btn3 rounded-pill" >Hitta Hantverkare</a>
-                            </Grid>
-
-                          </Grid>
-                          <Grid container spacing={3}>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="galleri" className="thm-btn thm-btn3 rounded-pill" >Inspiration</a>
-                            </Grid>
-                            <Grid item xs={6} sm={6}>
-                              <a style={{ margin: ".4em", justifyContent: "center", display: "flex" }} href="aterfarsaljare" className="thm-btn thm-btn3 rounded-pill">Återförsäljare</a>
-                            </Grid>
-
-                          </Grid>
-                        </div>
-                      </section>
-                    </Col>
-                    <Col lg={3} className="text-left">
-                      <img src={icon6} alt="icon6" />
-                    </Col>
-                  </Row>
-                </Container>
-              </SwiperSlide>
-              <div className="swiper-pagination" id="main-slider-pagination"></div>
+            
+             
+             
+              {/* <div className="swiper-pagination" id="main-slider-pagination"></div> */}
             </Swiper>
           </section>
         </div>

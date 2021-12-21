@@ -1,78 +1,44 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import image1 from "../../assets/images/backgrounds/GreenPlankProduct-Ingredients.webp";
-import image2 from "../../assets/images/backgrounds/about-1.webp";
-import image3 from "../../assets/images/backgrounds/about-2.webp";
-import image4 from "../../assets/images/backgrounds/about-profile.webp";
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+import Ambassador from "../../assets/images/Ambassador.png";
+import PoliceBadge from "../../assets/images/police-badge.png";
+import GovtLogo from "../../assets/images/govtlogo.png";
+
 
 const AboutOne = () => {
   return (
-    <section className="about-one text-center pt-120 pb-40">
-      <Container>
-        <Row style={{ marginBottom: "4em" }}>
-          <Col lg={12}>
-            <h4 style={{ marginBottom: "2em" }}>
-              Hej, vi är Green Plank. Vi erbjuder oöverträffade miljövänliga byggprodukter tillverkade av återvunnen plast och naturavfall.
-            </h4>
-          </Col>
-          <Col lg={12}>
-            <img src={image1} alt="" className="img-fluid" />
-          </Col>
-        </Row>
-      </Container>
+    <section className="pt-120 pb-40">
       <Container>
         <Row>
-          <Col lg={6}>
-          <img src={image4} alt="" width="510px" className="img-fluid" />
+          <Col lg={3}>
+            <img src={Ambassador} width="300px" alt="Ambassador" className="img-fluid" />
+            <Card style={{ borderRadius: "0px", backgroundColor: '#F8F8F8' }}>
+              <CardContent >
+                <Row style={{justifyContent:'center'}}>
+                  <img src={PoliceBadge} width="25px" alt="PoliceBadge" className="img-fluid" />
+                  <Typography variant="p" component="h5">
+                    <b style={{color:'#035804'}}>Since 1985</b>
+                  </Typography>
+                </Row>
+              </CardContent>
+
+            </Card>
           </Col>
-          <Col lg={6}>
-            <img src={image3} alt="" className="img-fluid" />
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <div className="team-about__top mt-60">
-          <Row>
-            <Col md={12} lg={12} style={{ marginBottom: "4em" }}>
-              <div className="block-title">
-                <h3>Välkommen till GreenPlank</h3>
-                <h2>15 års erfarenhet inom industrin</h2>
-                <h5>
-                  År 2001 deltog en ung Jamshaid Gill från Pakistan på en mässa i Wien, Österrike på ett seminarium om innovation inom teknik för kompositprodukter tillverkade med en mängd olika återvunna material och naturavfall.
-                </h5>
-                <h5>
-                  Han inspirerades av talet som hölls av en amerikansk professor om hållbara byggprodukter med träliknande egenskaper och utseende av en blandning av återvunnen plast och naturligt avfall som risskal, vetestrå, sågspån, bambuflis, kokosnötskal, sojabönor, jordnötsskal, bomullsstrå etc.
-                </h5>
-                <h5>
-                  Green Plank-produkter används av många svenska kommuner över hela Sverige
-                </h5>
-              </div>
-            </Col>
-          </Row>
-        </div>
-      </Container>
-      <Container>
-        <Row>
-          <Col lg={6}>
-          <img src={image2} alt="" className="img-fluid" />
-          </Col>
-          <Col lg={6}>
+          <Col lg={8}>
             <div className="block-title">
               <h3 style={{ marginBottom: ".5em" }}>
-                <span>15</span>År av erfarenhet
+                Ambassador's Message
               </h3>
               <h5>
-                Risskal blandat med återvunnen plast för att producera träalternativ och dess positiva effekt på miljön, tanken på Green Plank blev tänkt.
+                Welcome to the new website of the Embassy of Pakistan in Denmark. Pakistan and Denmark have enjoyed cordial and friendly bilateral relations over the decades. There are several avenues for both countries to collaborate and strengthen our relations through economic cooperation, leveraging sectors like information
               </h5>
-              <h5>
-                Han återvände till sitt hemland, Pakistan och började sitt arbete med att utveckla en träalternativprodukt tillverkad av återvunnen plast och risskalfibrer.
-              </h5>
-              <h5>
-              År 2004 emigrerade Gills yngre bror Nasir Gill till Sverige som företagare och grundade ett företag och började marknadsföra deras innovativa kompositplattor.
-              </h5>
-              <h5>
-              2015 fick Green Plank utmärkelsen “Årets Nybyggare” från Hans Majestät kung Carl Gustav. Green Plank hyllades för att representera Sverige som en miljövänlig nation.
-              </h5>
+              <a href="#"><b style={{color:'#035804'}}>Read More</b></a>
+              <img src={GovtLogo}  alt="GotvLogo" className="img-fluid" />
+              <p className="pt-20"><b>Mr. Ahmad Farooq</b></p>
+              <p>Ambassador</p>
             </div>
           </Col>
         </Row>

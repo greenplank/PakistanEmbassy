@@ -3,7 +3,7 @@ import Link from "next/link";
 // import ModalVideo from "react-modal-video";
 import { Container, Row, Col } from "react-bootstrap";
 
-import Icon1 from "../../assets/images/backgrounds/alll-icons-01.png";
+import Ambassador from "../../assets/images/Ambassador.png";
 import Icon2 from "../../assets/images/backgrounds/alll-icons-02.png";
 import Icon3 from "../../assets/images/backgrounds/alll-icons-03.png";
 import Icon4 from "../../assets/images/backgrounds/alll-icons-04.png";
@@ -15,16 +15,11 @@ import Icon8 from "../../assets/images/backgrounds/alll-icons-08.png";
 const VideoCard = () => {
     const [isOpen, setOpen] = useState(false);
     return (
-        <section className="about-two pt-70 pb-40">
+        <section className="about-two pt-80 pb-40">
 
             <Container>
                 <Row>
-                <Col xl={12}>
-                    <div className="text-center block-title">
-                        <h3>Designad i Sverige, Testad av SP.<br /> Innovativ med hög prestanda Smart™ komposittrall</h3>
-                    </div>
-                    </Col>
-                    <Col xl={6}>
+                    <Col xl={4}>
                         <section>
 
                             <Container>
@@ -32,13 +27,13 @@ const VideoCard = () => {
                                 {/* <h3>
                                     Fördelar och nackdelar med trä komposit. <br />
                                 </h3> */}
-                                <div className="video-card__btn-block">
-                                    <iframe width="560" height="480" src="https://www.youtube.com/embed/fe51I1VJEFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div className="video-card__btn-block mr-4px">
+                                   <img src={Ambassador} alt='Ambassador' />
                                 </div>
                             </Container>
                         </section>
                     </Col>
-                    <Col xl={6}>
+                    <Col xl={8}>
                         <div className="about-two__content">
                             <Row>
                                 <Col md={6}>
@@ -74,11 +69,11 @@ const VideoCard = () => {
                                             <img src={Icon5} alt="" /> <span>Långvariga naturliga färger</span>
                                         </p>
                                     </div>
-                                    <div className="about-two__box">
+                                    {/* <div className="about-two__box">
                                         <p>
                                             <img src={Icon1} alt="" /> <span>Upp till 60% snabbare att installera jämfört med traditionellt tralldäck</span>
                                         </p>
-                                    </div>
+                                    </div> */}
                                     <div className="about-two__box">
                                         <p>
                                             <img src={Icon4} alt="" /> <span>Slitstark och bekväm att gå på barfota</span>

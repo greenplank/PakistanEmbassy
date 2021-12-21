@@ -1748,7 +1748,7 @@
   --heading-font: "Libre Baskerville", serif;
   --thm-color: #000000;
   --thm-color-rgb: 126, 126, 126;
-  --thm-base: #369956;
+  --thm-base: ##035804;
   --thm-base-rgb: 252, 173, 48;
   --thm-primary: #369956;
   --thm-primary-rgb: 78, 205, 153;
@@ -1917,7 +1917,7 @@ h6 {
   vertical-align: middle;
   border: none;
   outline: none;
-  background-color: var(--thm-base);
+  background-color:#035804;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -1925,7 +1925,7 @@ h6 {
   padding: 16.5px 39.5px;
   -webkit-transition: 500ms;
   transition: 500ms;
-  background-color: var(--thm-base);
+  background-color: #035804;
   color: #fff;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
@@ -2236,8 +2236,8 @@ h6 {
   background-color: var(--thm-black);
   position: relative;
   display: none;
-  -webkit-box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.1); */
 }
 
 @media (min-width: 1200px) {
@@ -2253,8 +2253,8 @@ h6 {
 @media (min-width: 1260px) {
   .main-menu .container {
     max-width: 1250px;
-    padding-left: 40px;
-    padding-right: 40px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
   }
 }
 
@@ -2292,7 +2292,7 @@ h6 {
 @media (min-width: 1281px) {
   .main-menu .main-menu__list > li + li,
   .stricky-header .main-menu__list > li + li {
-    margin-left: 55px;
+    /* margin-left: 55px; */
     margin-right: 10px;
   }
 }
@@ -2302,8 +2302,8 @@ h6 {
 .stricky-header .main-menu__list > li > span,
 .stricky-header .main-menu__list > li > a {
   font-family: var(--thm-font);
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 800;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2801,7 +2801,7 @@ h6 {
 
 /* main header two */
 .main-header__two .main-header__top {
-  background-color: #242323;
+  background-color: rgba(3,88,4,1);
   padding-left: 0;
   padding-right: 0;
 }
@@ -2961,12 +2961,12 @@ h6 {
 .main-header__two .main-menu {
   padding-left: 0;
   padding-right: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #b5b1b1;
 }
 
 .main-header__two .main-menu .container {
   background-color: rgba(0, 0, 0, 0);
-  margin-bottom: -39.5px;
+  /* margin-bottom: -39.5px; */
   position: relative;
   z-index: 11;
   padding-left: 15px;
@@ -2974,7 +2974,7 @@ h6 {
 }
 
 .main-header__two .main-menu__list {
-  background-color: var(--thm-black);
+  background-color: #b5b1b1;
   width: calc(100% - 223px);
   padding-left: 30px;
   padding-right: 10px;
@@ -4768,7 +4768,7 @@ h6 {
 # Footer
 --------------------------------------------------------------*/
 .main-footer {
-  background-color: var(--thm-black);
+  background-color: #035804;
   position: relative;
 }
 
@@ -4779,7 +4779,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../images/backgrounds/footer-bg-1-1.png);
+  /* background-image: url(../images/backgrounds/footer-bg-1-1.png); */
   opacity: 0.5;
 }
 
@@ -4788,7 +4788,7 @@ h6 {
 }
 
 .footer-bottom {
-  background-color: var(--thm-black2);
+  background-color: #004A01;
 }
 .logo-box img {
   width: 201px;
@@ -4836,7 +4836,7 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 68px;
+  width: 60px;
   height: 54px;
   background-color: var(--thm-black2);
   color: #fff;
@@ -4880,9 +4880,9 @@ h6 {
 
 .footer-social a {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  background-color: var(--thm-secondary);
+  width: 60px;
+  height: 60px;
+  background-color: #035804;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4894,7 +4894,7 @@ h6 {
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
-  font-size: 14px;
+  font-size: 28px;
   -webkit-transition: 500ms ease;
   transition: 500ms ease;
 }
@@ -5143,7 +5143,7 @@ h6 {
   bottom: 0;
   background-repeat: no-repeat;
   opacity: 0.04;
-  background-image: url(../images/shapes/about-count-pattern-1-1.png);
+  /* background-image: url(../images/shapes/about-count-pattern-1-1.png); */
 }
 
 .faq-one__content {
