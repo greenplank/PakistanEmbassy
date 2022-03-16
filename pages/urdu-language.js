@@ -106,15 +106,127 @@ const UrduLanguage = () => {
                     teachers:
                   </b>
                 </p>
-
+                <p className="mb-30 mt-30 text-left">
+                  Urdu is the official language of Pakistan.  It is estimated to
+                  be the the 10th most widely spoken language in the world with
+                  230 million total speakers, including those who speak it as a
+                  second language.  The Urdu alphabet has up to 39 or
+                  40 distinct letters with no distinct letter cases and is
+                  typically written in the calligraphic Nastaʿlīq script.
+                </p>
+                <p className="mb-30 mt-30 text-left">
+                  In order to provide teaching resources to Urdu teachers in
+                  Sweden and Finland the Embassy has initiated this platform.
+                </p>
+                <p className="mb-30 mt-30 text-left">
+                  The Embassy of Pakistan arranged a first ever Urdu teachers
+                  meeting on 22nd Nov 2021. Click here to watch the complete
+                </p>
+                <p className="mb-30 mt-30 text-left">
+                  Following are some links which for guidance and resources for
+                  the teaching of Urdu language:
+                  <br />
+                  <a
+                    target="_blank"
+                    href="http://www.alisheraz.com/urdu-editor.php"
+                  >
+                    http://www.alisheraz.com/urdu-editor.php
+                  </a>
+                </p>
+                <p className="mb-30 mt-30 text-left">
+                  <a href="Sherazali.com" target="_blank">
+                    Sherazali
+                  </a>{" "}
+                  is the website by Mr. Sheraz Ali, who is the lecturer of Urdu
+                  Language at the Manchester Univerisy. It is an Urdu editor
+                  which provides the writing space along with the Urdu Keypad to
+                  type Urdu language easily.
+                  <br />
+                  <a href="https://matnsaz.net/">https://matnsaz.net/</a>
+                </p>
+                <p className="mb-30 mt-30 text-left">
+                  Matansaz is also a keyboard for long Urdu writings with an
+                  auto correct feature.
+                  <br />
+                  <a
+                    href="https://www.mbilalm.com/download/pak-urdu-installer.php"
+                    target="_blank"
+                  >
+                    https://www.mbilalm.com/download/pak-urdu-installer.php
+                  </a>
+                </p>
+                <p className="mb-30 mt-30 text-left">
+                  This website provides stories for reading and discussion to be
+                  used while teaching Urdu language. The main element provided
+                  by the website is Pak Urdu installer through which one can
+                  type Urdu by using qwerty keyboard.
+                  <a href="https://urduthesaurus.com/index" target="_blank">
+                    https://urduthesaurus.com/index
+                  </a>
+                </p>
+                <p className="mb-30 mt-30 text-left">
+                  It is the initial version of Urdu thesaurus which has 40,000
+                  words and  20,000 synonyms. It is in the process of expanding
+                  and will soon provide dictionary, antonym, idioms and,
+                  phrases.
+                  <br />
+                  <a href="https://اردو.com/" target="_blank">
+                    https://اردو.com/
+                  </a>
+                </p>
+                <p className="mb-30 mt-30 text-left">
+                  Urdu{" "}
+                  <a href="Gah.com" target="_blank">
+                    Gah.com
+                  </a>{" "}
+                  is a very interesting website that provides you with the Urdu
+                  poetry, content for discussion, quotes, idioms, golden words
+                  in Urdu etc.
+                  <a href="https://youtu.be/aMOX1I3lo34" target="_blank">
+                    https://youtu.be/aMOX1I3lo34 
+                  </a>
+                </p>
+                <p className="mb-30 mt-30 text-left">
+                  The above mentioned video is a  demonstration on how to use
+                  the regular  keyboard for Urdu typing.
+                </p>
                 <div className="mt-30">
-                  <a target="_blank" href="http://www.alisheraz.com/urdu-editor.php">http://www.alisheraz.com/urdu-editor.php</a><br/>
-                  <a target="_blank" href="https://books.apple.com/gb/book/general-urdu-vocabulary/id1237763911">https://books.apple.com/gb/book/general-urdu-vocabulary/id1237763911</a><br/>
-                  <a target="_blank" href="https://matnsaz.net/">https://matnsaz.net/</a><br/>
-                  <a target="_blank" href="https://www.mbilalm.com/download/pak-urdu-installer.php">https://www.mbilalm.com/download/pak-urdu-installer.php</a><br/>
-                  <a target="_blank" href="https://urduthesaurus.com/index">https://urduthesaurus.com/index</a><br/>
-                  <a target="_blank" href="https://xn--mgbqf7g.com/">https://اردو.com/</a><br/>
-                  <a target="_blank" href="https://xn--mgbqf7g.com/">https://youtu.be/aMOX1I3lo34</a>
+                  <a
+                    target="_blank"
+                    href="http://www.alisheraz.com/urdu-editor.php"
+                  >
+                    http://www.alisheraz.com/urdu-editor.php
+                  </a>
+                  <br />
+                  <a
+                    target="_blank"
+                    href="https://books.apple.com/gb/book/general-urdu-vocabulary/id1237763911"
+                  >
+                    https://books.apple.com/gb/book/general-urdu-vocabulary/id1237763911
+                  </a>
+                  <br />
+                  <a target="_blank" href="https://matnsaz.net/">
+                    https://matnsaz.net/
+                  </a>
+                  <br />
+                  <a
+                    target="_blank"
+                    href="https://www.mbilalm.com/download/pak-urdu-installer.php"
+                  >
+                    https://www.mbilalm.com/download/pak-urdu-installer.php
+                  </a>
+                  <br />
+                  <a target="_blank" href="https://urduthesaurus.com/index">
+                    https://urduthesaurus.com/index
+                  </a>
+                  <br />
+                  <a target="_blank" href="https://xn--mgbqf7g.com/">
+                    https://اردو.com/
+                  </a>
+                  <br />
+                  <a target="_blank" href="https://xn--mgbqf7g.com/">
+                    https://youtu.be/aMOX1I3lo34
+                  </a>
                 </div>
               </Col>
             </Row>
