@@ -33,9 +33,18 @@ const EVisa = () => {
                   Coordination (MNHSR&C) is leading on the national medical
                   tourism initiative as part of the Economic Outreach Initiative
                   (EOI) by the Prime Minister. MNHSR&C has developed a website
-                  on Medical Tourism. Follow the link below:<br/>
+                  on Medical Tourism.
+                  <br />
+                  The Government of Pakistan has identified ‘Medical Tourism’ as
+                  a niche market in which the country has a competitive edge.
+                  Pakistan is blessed with some of the best healthcare experts
+                  and state of the art health facilities in the world which
+                  provide treatments at much lower costs as compared to other
+                  countries. Medical Tourism is a key element in Pakistan's
+                  recent tourism policy. Follow the link below:
+                  <br />
                   <a target="_blank" href="https://mtp.nhsrc.gov.pk/">
-                  https://mtp.nhsrc.gov.pk/
+                    https://mtp.nhsrc.gov.pk/
                   </a>{" "}
                 </p>
               </Col>

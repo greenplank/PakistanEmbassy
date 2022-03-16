@@ -73,7 +73,7 @@ const AboutThree = () => {
                 the first hand narrativ...
               </h5>
               <span>
-                <a href="/commercial-section" style={{ color: "black" }}>
+                <a href="/Tourism" style={{ color: "black" }}>
                   More
                 </a>{" "}
               </span>

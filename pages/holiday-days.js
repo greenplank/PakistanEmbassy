@@ -44,86 +44,67 @@ const Holidays = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>New Year </td>
-                        <td>01-Jan</td>
-                        <td> Friday </td>
+                        <td>Epiphany day </td>
+                        <td>06 January 2022</td>
+                        <td> Thursday </td>
                       </tr>
-                      <tr>
-                        <td>Kashmir Day </td>
-                        <td>05-Feb </td>
-                        <td>Friday</td>
-                      </tr>
+                     
                       <tr>
                         <td>Pakistan Day </td>
-                        <td>23-Mar </td>
-                        <td>Tuesday</td>
+                        <td>23 March 2022 </td>
+                        <td>Wednesday</td>
                       </tr>
                       <tr>
                         <td>Good Friday </td>
-                        <td>02-Apr </td>
+                        <td>15 April 2022 </td>
                         <td>Friday</td>
                       </tr>
                       <tr>
                         <td>Easter Monday </td>
-                        <td>05-Apr </td>
+                        <td>18 April 2022 </td>
                         <td>Monday</td>
                       </tr>
                       <tr>
-                        <td>Labour Day </td>
-                        <td>01-May </td>
-                        <td>Saturday</td>
+                        <td>Eid-ul-Fitr (1st Shawal 1443 A.H.) (Subject to sighting of the moon) </td>
+                        <td>2, 3, 4 May 2022 </td>
+                        <td>Monday, Tuesday, Wednesday</td>
                       </tr>
                       <tr>
-                        <td>Ascension Day </td>
-                        <td>13-May </td>
-                        <td>Thursday</td>
+                        <td>National Day of Sweden</td>
+                        <td>06 June 2022 </td>
+                        <td>Monday</td>
                       </tr>
                       <tr>
-                        <td>Eid-ul-Fitr (Subject to sighting of the moon) </td>
-                        <td>11 till 15-May </td>
-                        <td>Tuesday Till Friday</td>
-                      </tr>
-                      <tr>
-                        <td>National day of Sweden </td>
-                        <td>6-Jun </td>
-                        <td>Sunday</td>
-                      </tr>
-                      <tr>
-                        <td>Midsummer </td>
-                        <td>25-Jun </td>
+                        <td>Midsummer Eve</td>
+                        <td>24 June 2022</td>
                         <td>Friday</td>
                       </tr>
                       <tr>
-                        <td>Eid-ul-Azha (Subject to sighting of the moon) </td>
-                        <td>20 till 23-July </td>
-                        <td>Tuesday till Friday</td>
+                        <td>Eid-ul-Azha (10th Zil Haj 1443 A.H.) (Subject to sighting of the moon)</td>
+                        <td>10, 11, 12 July 2022</td>
+                        <td>Sunday, Monday, Tuesday</td>
+                      </tr>
+                      <tr>
+                        <td>Ashura (9th & 10th Moharrum 1444 A.H) (Subject to sighting of the moon) </td>
+                        <td>7, 8 August 2022 </td>
+                        <td>Sunday, Monday</td>
                       </tr>
                       <tr>
                         <td>Independence Day </td>
                         <td>14-Aug </td>
-                        <td>Saturday</td>
-                      </tr>
-                      <tr>
-                        <td>Ashura 10th Moharrum </td>
-                        <td>19 Aug </td>
-                        <td>Thursday</td>
+                        <td>Sunday</td>
                       </tr>
                       <tr>
                         <td>
-                          Eid-Milad-un Nabi (Subject to sighting of moon){" "}
+                        Eid Milad-un-Nabi (12th Rabi-ul-Awwal 1444 A.H.)  (Subject to sighting of moon){" "}
                         </td>
-                        <td>18-Oct </td>
-                        <td>Monday</td>
-                      </tr>
-                      <tr>
-                        <td>Quad-e-Azam Day/Christmas Day </td>
-                        <td>25-Dec </td>
-                        <td>Saturday</td>
+                        <td>9 October 2022</td>
+                        <td>Sunday</td>
                       </tr>
                       <tr>
                         <td>Boxing Day </td>
-                        <td>26-Dec </td>
-                        <td>Sunday</td>
+                        <td>26 December 2022 </td>
+                        <td>Monday</td>
                       </tr>
                      
                     </tbody>

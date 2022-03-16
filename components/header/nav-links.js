@@ -62,7 +62,7 @@ const NavLinks = ({ extraClassName }) => {
         </Link>
         <ul className="dropdown-list">
           <li>
-            <Link href="#">
+            <Link href="/our_mission">
               <a>Our Mission</a>
             </Link>
           </li>
@@ -72,7 +72,7 @@ const NavLinks = ({ extraClassName }) => {
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/previous_ambassdors">
               <a>Previous Ambassadors </a>
             </Link>
           </li>
@@ -97,17 +97,17 @@ const NavLinks = ({ extraClassName }) => {
         </Link>
         <ul className="dropdown-list">
           <li>
-            <Link href="#">
+            <Link href="/diplomatic_relations">
               <a>Diplomatic Relations</a>
             </Link>
           </li>
           <li>
-            <Link href="/ambassador">
+            <Link href="/economic_relations">
               <a>Economic Relations</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/pakistani_diaspora">
               <a>Pakistani Diaspora in Sweden and Finland </a>
             </Link>
           </li>
@@ -169,7 +169,7 @@ const NavLinks = ({ extraClassName }) => {
             </Link>
           </li>
           <li>
-            <Link href="/e-Visa">
+            <Link href="/PMDU">
               <a>PMDU</a>
             </Link>
           </li>
@@ -195,7 +195,7 @@ const NavLinks = ({ extraClassName }) => {
             </Link>
           </li>
           <li>
-            <Link href="/e-Visa">
+            <Link href="/renunciation">
               <a>Renunciation</a>
             </Link>
           </li>
@@ -259,7 +259,7 @@ const NavLinks = ({ extraClassName }) => {
         </Link>
       </li>
       <li>
-        <Link href="/">
+        <Link href="/Tourism">
           <a>TOURISM</a>
         </Link>
       </li>

@@ -12,48 +12,83 @@ const EVisa = () => {
   return (
     <>
       <Head>
-        <title>
-          Federal Tax ombudsman Facilitation Desks at International Airports and
-          Customs Border Stations
-        </title>
-        <meta
-          name="title"
-          content="Federal Tax ombudsman Facilitation Desks at International Airports and Customs Border Stations"
-        />
+        <title>Federal Tax Ombudsman</title>
+        <meta name="title" content="Federal Tax Ombudsman" />
         <meta name="description" content="" />
       </Head>
-      <Layout pageTitle="Federal Tax ombudsman Facilitation Desks at International Airports and Customs Border Stations">
+      <Layout pageTitle="Federal Tax Ombudsman">
         <HeaderTwo />
-        <PageHeader title="Federal Tax ombudsman Facilitation Desks at International Airports and Customs Border Stations" />
+        <PageHeader title="Federal Tax Ombudsman" />
         <StickyHeader />
         <section className="about-one pb-40">
           <Container>
             <Row style={{ marginBottom: "4em" }}>
               <Col lg={12}>
                 <h1 className="mt-80">
-                  <b>
-                    Federal Tax ombudsman Facilitation Desks at International
-                    Airports
-                  </b>
+                  <b>Federal Tax Ombudsman</b>
                 </h1>
                 <p className="mb-30 mt-30 text-left">
-                  The office of the Federal Tax Ombudsman has been providing
-                  facilitation to the aggrieved taxpayers through redressal of
-                  their complaints against the Federal Tax functionaries
-                  comprising of the department of customs, Income tax, Sales Tax
-                  and Federal excise. In continuation of the efforts, Federal
-                  Tax Ombudsman office facilitation Desks for redressal of
-                  international passengers, have been inaugurated at
-                  International Airports at Islamabad, Karachi, Quetta and
-                  Lahore by the Hon`ble Federal Tax Ombudsman Pakistan Dr. Asif
-                  Mahmood Jah.
+                  The Federal Tax Ombudsman, is assisted by Advisors and
+                  Consultants all major tax issues including Income Tax,
+                  Customs, Sales Tax and Federal Excise. The FTO institution has
+                  seven regional offices located at major business hubs of the
+                  country with Headquarter at Islamabad. This institution
+                  strives to help improve tax processes and promote good
+                  governance in Federal Board of Revenue besides providing
+                  prompt relief to aggrieved tax payers.
                 </p>
-                <p className="mb-30 mt-30 text-left">
-                  To further extend the facility the office of Federal Tax
-                  Ombudsman plans t open similar facilitation desks at the
-                  border custom stations all over the country in the coming
-                  months.
+                <h2 className="mb-30 mt-30">Organogram</h2>
+                <h3>Legislations</h3>
+                <ul>
+                  <li>
+                    The Establishment of the Office of Federal Tax Ombudsman
+                    Ordinance, 2000
+                  </li>
+                  <li>Federal Ombudsmen Institutional Reforms Act, 2013</li>
+                  <li>
+                    Investigation and Disposal of Complaints Regulations, 2001
+                  </li>
+                </ul>
+                <h3 className="mb-30 mt-30">Charter and Functions</h3>
+                <p>
+                  The office of Federal Tax Ombudsman is mandated to
+                  investigate, diagnose, redress and rectify maladministration
+                  of tax functionaries in the following manner:
                 </p>
+                <ul>
+                  <li>On complaint by an aggrieved person</li>
+                  <li>
+                    On reference from the President ,Senate National Assembly
+                    ,Supreme Court and High Court
+                  </li>
+                  <li>Own-motion action</li>
+                  <li>
+                    Inspections of offices ,where Persistent maladministration
+                    is reported
+                  </li>
+                  <li>Special research studies</li>
+                  <li>
+                    Recommendations to FBR on suggestions of Advisory
+                    Committees.
+                  </li>
+                </ul>
+                <p>
+                  Complaints are disposed of within 45 days. The Hon’ble FTO
+                  also takes own motion cognizance in systemic maladministration
+                  also conducts inspections of the offices sounding bad
+                  reputation.
+                </p>
+                <p>
+                  For further inquiries please visit the following link
+                  <br />
+                  <a href="http://fto.gov.pk/Default" target="_blank">
+                    http://fto.gov.pk/Default
+                  </a>
+                </p>
+                <h3>Download the Form</h3>
+                <a href="/pdfs/computer-proforma-renunciation.pdf" target="_blank">
+                    Click Here
+                  </a>
               </Col>
             </Row>
           </Container>

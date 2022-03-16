@@ -35,12 +35,15 @@ const EVisa = () => {
                   operation.
                 </p>
                 <p className="mb-30 mt-30 text-left">
-                  The service of Police Certificate and Character Certificate
-                  has already been provided to overseas/expatriate Pakistanis in
-                  35-embassies/consulates of 31 countries, including Character
-                  Certificate and Driving Licence verification visa Police
-                  Khidmat Markaz Global. The link for verification of Character
-                  Certificate and Driving Licence is given below:
+                  Police Character Certificate can be obtained from the
+                  concerned district police officer (DPO) office where the
+                  person is permanently residing. In case, personal appearance
+                  of the applicant is required. The person may give an authority
+                  letter to a family member or friend to obtain the same for the
+                  person. Moreover, some of the provincial governments have
+                  started online police character certificate and driving
+                  license online. Government of Baluchistan Police Khidmat
+                  Markaz Global has the following link for such online services:
                 </p>
                 <ol>
                   <li>
@@ -70,8 +73,11 @@ const EVisa = () => {
                   </li>
                   <li>
                     <b>Android App for Driving License Verification</b>
-                    <br/>
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.ixs.qtp_publicapp">
+                    <br />
+                    <a
+                      target="_blank"
+                      href="https://play.google.com/store/apps/details?id=com.ixs.qtp_publicapp"
+                    >
                       Download App Click here
                     </a>{" "}
                   </li>
