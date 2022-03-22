@@ -144,10 +144,10 @@ const ContactFormOne = () => {
       <Container>
         <Row>
           <Col lg={8} style={{ paddingTop: "2em" }}>
-            <h3 className="pt-120 pb-50">
+            {/* <h3 className="pt-120 pb-50">
               <b>Book Your own Appointment</b>
-            </h3>
-            <div class="alert alert-secondary mb-30" role="alert">
+            </h3> */}
+            {/* <div class="alert alert-secondary mb-30" role="alert">
               <p>
                 <b>
                   Import Note: Appointment will be consider in these timings
@@ -158,7 +158,7 @@ const ContactFormOne = () => {
                 Friday: 09:00 to 11:00
                 <br />
               </p>
-            </div>
+            </div> */}
             <form
               className="contact-form-validated contact-page__form form-one mb-40"
               onSubmit={sendEmail}
