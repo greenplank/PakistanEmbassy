@@ -8,11 +8,7 @@ const NavLinks = ({ extraClassName }) => {
   };
   return (
     <ul className={`main-menu__list ${extraClassName}`}>
-      <li>
-        <Link href="/">
-          <a>HOME</a>
-        </Link>
-      </li>
+    
       <li className="dropdown">
         <Link href="#">
           <>
@@ -34,6 +30,26 @@ const NavLinks = ({ extraClassName }) => {
           <li>
             <Link href="/about-pakistan/">
               <a>History</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/diplomatic_relations">
+              <a>Diplomatic Relations</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/bilateral_relations_between_pakistan_Sweden">
+              <a>Bilateral Relations between Pakistan and Sweden</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/bilateral_relations_between_pakistan_Finland">
+              <a>Bilateral Relations between Pakistan and Finland</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/foods">
+              <a>Foods</a>
             </Link>
           </li>
           <li>
@@ -83,7 +99,7 @@ const NavLinks = ({ extraClassName }) => {
           </li>
         </ul>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <Link href="#">
           <>
             <a>BILATERAL RELATIONS</a>
@@ -112,7 +128,7 @@ const NavLinks = ({ extraClassName }) => {
             </Link>
           </li>
         </ul>
-      </li>
+      </li> */}
 
       <li className="dropdown">
         <Link href="#">
@@ -258,21 +274,21 @@ const NavLinks = ({ extraClassName }) => {
           <a>URDU LANGUAGE TEACHING RESOURCES</a>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/Tourism">
           <a>TOURISM</a>
         </Link>
-      </li>
+      </li> */}
       <li>
         <Link href="/events">
           <a>MEDIA EVENTS</a>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/ImportantWebsites">
           <a>Important Websites</a>
         </Link>
-      </li>
+      </li> */}
       <li>
         <Link href="/contact-us">
           <a>CONTACT US</a>

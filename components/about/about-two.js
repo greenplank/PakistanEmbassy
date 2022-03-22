@@ -19,10 +19,10 @@ const AboutTwo = () => {
                   <b>Business</b>
                 </h2>
                 <hr style={{ backgroundColor: "white", width: "50%", borderWidth: "3px", margin:'2px 0px 10px 15px', marginRight: '17em' }} />
-                <h4 style={{margin:'2px 0px 24px 15px', paddingTop: '.1em', color: 'white' }}>
+                {/* <h4 style={{margin:'2px 0px 24px 15px', paddingTop: '.1em', color: 'white' }}>
                   Information Technology
-                </h4>
-                <Row>
+                </h4> */}
+                {/* <Row>
                   <Col md={4} xs={3}>
                   <button style={{margin:'2px 0px 24px 15px',padding:'4px 6px 4px 6px'}}>Trade</button>
                   </Col>
@@ -30,10 +30,10 @@ const AboutTwo = () => {
                   <p style={{margin:'9px 0px 2px 20px',color:'white'}}><b>Investing in Pakistan</b></p>
                   </Col>
                   
-                </Row>
+                </Row> */}
                 <h5 style={{ margin:'2px 4px 24px 15px', color: 'white' }}>
                   Pakistan’s Tech industry is growing very fast over the last decade and is currently among the top 3 exporting industries. The growth is fueled by the young and tech savvy people who are creating opportunities for disruptors and entrepreneurs. Increasing local and foreign capita..
-                </h5><span><a href="#" style={{ margin:'2px 0px 24px 15px',color: 'white' }}>More</a> </span>
+                </h5><span><a href="/commercial-section" style={{ margin:'2px 0px 24px 15px',color: 'white' }}>More</a> </span>
 
               </div>
             </Col>

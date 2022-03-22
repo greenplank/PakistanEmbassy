@@ -4,7 +4,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Marquee from "react-easy-marquee";
-import BlogCard from "../../components/blog-card2";
+import BlogCard from "../blog-card2";
 import Hidden from "@material-ui/core/Hidden";
 import CAALogo from "../../assets/images//icons/logo3.gif";
 import Govt from "../../assets/images//icons/logo2.gif";
@@ -74,7 +74,7 @@ const AboutFour = () => {
         ></script>
       </Head>
 
-      <section className="pt-80 pb-20">
+      <section className="pb-80">
         <Container>
           <Row>
             <Col lg={8} md={8}>
@@ -87,7 +87,7 @@ const AboutFour = () => {
                       color: "#035804",
                     }}
                   >
-                    <b>Welcome to the Embassy of Pakistan </b>
+                    <b>About the Embassy </b>
                   </h2>
                   <hr
                     style={{
@@ -102,33 +102,41 @@ const AboutFour = () => {
               </Row>
               <div>
                 <p>
-                  Ambassador Zahoor Ahmed is a career Foreign Service officer
-                  with diplomatic experience spanning over 27 years that
-                  includes various assignments at the Ministry of Foreign
-                  Affairs as well as Pakistan’s missions abroad in both
-                  bilateral and multilateral arenas. Prior to being designated
-                  as Pakistan's Ambassador to Sweden with concurrent
-                  accreditation to Finland, he was Additional Foreign Secretary
-                  (Asia Pacific) in the Ministry of Foreign Affairs, Islamabad.
-                  In this capacity he dealt with Pakistan's relations with China
-                  and countries of ASEAN and SAARC regions, Australia, New
-                  Zealand, Japan and Koreas. He also represented Pakistan at the
-                  ASEAN regional forum, ASEM and SAARC.
+                  The Embassy of Pakistan in Stockholm is responsible for
+                  promoting Pakistan’s bilateral relations with the Kingdom of
+                  Sweden as well as the Republic of Finland. The key mission of
+                  the Embassy is to promote bilateral relations in all spheres
+                  of live including political, economic, investment, education
+                  and people-to-people relations. The Embassy also provides
+                  consular services for the Pakistani-origin community in Sweden
+                  and Finland as well as those interested in traveling to
+                  Pakistan.
                 </p>
               </div>
             </Col>
             <Col lg={4} md={4}>
               <Row>
                 <Col lg={12} md={12} xs={12}>
-                  <a
-                    className="twitter-timeline"
-                    data-height="480"
-                    href="https://twitter.com/PakinSweden"
-                    target="_blank"
-                    rel="noreferrer"
+                  <div
+                    class="fb-page"
+                    data-href="https://www.facebook.com/PakinSweden"
+                    data-tabs="timeline"
+                    data-width=""
+                    data-height="400"
+                    data-small-header="true"
+                    data-adapt-container-width="true"
+                    data-hide-cover="false"
+                    data-show-facepile="true"
                   >
-                    Tweets by PakinSweden
-                  </a>
+                    <blockquote
+                      cite="https://www.facebook.com/PakinSweden"
+                      class="fb-xfbml-parse-ignore"
+                    >
+                      <a href="https://www.facebook.com/PakinSweden">
+                        Pakistan Embassy Sweden
+                      </a>
+                    </blockquote>
+                  </div>
                 </Col>
               </Row>
             </Col>

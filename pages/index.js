@@ -7,6 +7,7 @@ import MainSliderTwo from "../components/slider/main-slider-2";
 import AboutTwo from "../components/about/about-two";
 import AboutThree from "../components/about/about-three";
 import AboutFour from "../components/about/about-four";
+import AboutEight from "../components/about/about-eight";
 import AboutFive from "../components/about/about-five";
 // import AboutSix from "../components/about/about-six";
 import HomeSection2 from "../components/HomeSection2";
@@ -28,6 +29,7 @@ const HomeTwo = () => {
         <StickyHeader extraClassName="stricky-header-two" />
         <MainSliderTwo />
         <AboutFour/>
+        <AboutEight/>
         <HomeSection2 />
         {/* <AboutOne /> */}
         <AboutTwo/>

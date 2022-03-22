@@ -85,7 +85,7 @@ const Ambassador = () => {
                   Structure Council from October 2018 till September 2020.
                 </p>
                 <p>
-                  Ambassador Ahmed has a Bachelors Degree in Medicine from
+                  Ambassador Ahmed has a Bachelors degree in medicine from
                   Punjab University, Lahore, a Diploma in French language from
                   National University of Modern Languages, Islamabad, LLM in
                   International Business Law from University of London and MBA
@@ -93,12 +93,13 @@ const Ambassador = () => {
                 </p>
                 <p>
                   In the Ministry of Foreign Affairs Islamabad, he has served in
-                  various capacities in Afghanistan, US, Personnel, Policy
-                  Planning and UN Divisions and represented Pakistan at various
-                  international conference and meetings including at the
-                  International Maritime Organization, the Commonwealth, UN
-                  Human Rights Council and World Economic Forum, Shanghai
-                  Cooperation Organization (SCO) and SCO-RATS.
+                  various capacities in Afghanistan and USA for domains of
+                  Personnel, Policy Planning and UN Divisions. He also
+                  represented Pakistan at various international conferences and
+                  meetings including the International Maritime Organization
+                  (IMO), the Commonwealth, UN Human Rights Council and World
+                  Economic Forum (WEF), Shanghai Cooperation Organization (SCO)
+                  and SCO-RATS.
                 </p>
                 <p>
                   He has served in Pakistan’s Diplomatic Missions in Budapest
@@ -111,15 +112,11 @@ const Ambassador = () => {
                   Manchester from 2013 to 2017.
                 </p>
                 <p>
-                  He was Deputy Chief of Mission in the Embassy of Pakistan,
-                  Beijing from 2010 to 2013 and Consul General of Pakistan at
-                  Manchester from 2013 to 2017.
-                </p>
-                <p>
                   He has published the first Urdu translation of the Chinese
                   classic Romance of the Three Kingdoms besides several
                   articles.
                 </p>
+                
                 <p>He is married with four children.</p>
               </Col>
             </Row>

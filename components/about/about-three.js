@@ -55,7 +55,7 @@ const AboutThree = () => {
                   marginRight: "17em",
                 }}
               />
-              <h4
+              {/* <h4
                 style={{
                   marginBottom: "16px",
                   paddingTop: ".1em",
@@ -63,17 +63,20 @@ const AboutThree = () => {
                 }}
               >
                 <b>What others think</b>
-              </h4>
+              </h4> */}
 
               <h5 style={{ marginBottom: ".5em" }}>
-                Pakistan is a place frequented by many travelers, bloggers,
-                globe trotters and other individuals with a quest for discovery.
-                There is a possibility that the experience that you are seeking
-                has already been experienced and you could benefit from hearing
-                the first hand narrativ...
+              Pakistan is a cradle of ancient civilizations and has some of
+                  the most diverse and fascinating natural beauty in the world.
+                  From the stretches of great mountain ranges in the north, to
+                  the vast alluvial delta of the Indus River in the south,
+                  Pakistan remains a land blessed with nature’s beauty and
+                  majestic mountains. With shining deserts and some of the
+                  world’s highest peaks, the country has myriad attractions for
+                  sightseers, skiers, trekkers and mountaineers....
               </h5>
               <span>
-                <a href="/Tourism" style={{ color: "black" }}>
+                <a href="/visit-pakistan" style={{ color: "black" }}>
                   More
                 </a>{" "}
               </span>
