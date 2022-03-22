@@ -52,7 +52,7 @@ const BLOG_DATA2 = [
   },
 ];
 
-const AboutFour = () => {
+const AboutEight = () => {
   return (
     <>
       <Head>
@@ -114,7 +114,7 @@ const AboutFour = () => {
                 </p>
               </div>
             </Col>
-            <Col lg={4} md={4}>
+            <Col lg={4} md={4} xs={12} sm={12}>
               <Row>
                 <Col lg={12} md={12} xs={12}>
                   <div
@@ -147,4 +147,4 @@ const AboutFour = () => {
   );
 };
 
-export default AboutFour;
+export default AboutEight;
