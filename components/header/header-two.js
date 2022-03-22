@@ -25,8 +25,6 @@ const HeaderTwo = () => {
     };
   });
 
- 
-
   const useStyles = makeStyles((theme) => ({
     grow: {
       flexGrow: 1,
@@ -89,8 +87,6 @@ const HeaderTwo = () => {
       });
     });
   };
-
-
 
   return (
     <div className="main-header__two">
@@ -195,7 +191,7 @@ const HeaderTwo = () => {
                     <i class="fas fa-phone"></i>
                   </a>
                 </div>
-                <div className="col-8" >
+                <div className="col-8">
                   {/* <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" /> */}
                   <i id="search-btn" class="fa fa-search"></i>
                 </div>

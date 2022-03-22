@@ -8,7 +8,6 @@ const NavLinks = ({ extraClassName }) => {
   };
   return (
     <ul className={`main-menu__list ${extraClassName}`}>
-    
       <li className="dropdown">
         <Link href="#">
           <>
@@ -37,16 +36,32 @@ const NavLinks = ({ extraClassName }) => {
               <a>Diplomatic Relations</a>
             </Link>
           </li>
-          <li>
-            <Link href="/bilateral_relations_between_pakistan_Sweden">
-              <a>Bilateral Relations between Pakistan and Sweden</a>
+          <li className="dropdown">
+            <Link href="#">
+              <>
+                <a>Bilateral Relations</a>
+                <button
+                  aria-label="dropdown toggler"
+                  onClick={handleDropdownStatus}
+                >
+                  <i className="fa fa-angle-down dropright"></i>
+                </button>
+              </>
             </Link>
+            <ul className="dropdown-list">
+              <li>
+                <Link href="/bilateral_relations_between_pakistan_Sweden">
+                  <a>Between Pakistan and Sweden</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/bilateral_relations_between_pakistan_Finland">
+                  <a>Between Pakistan and Finland</a>
+                </Link>
+              </li>
+            </ul>
           </li>
-          <li>
-            <Link href="/bilateral_relations_between_pakistan_Finland">
-              <a>Bilateral Relations between Pakistan and Finland</a>
-            </Link>
-          </li>
+
           <li>
             <Link href="/foods">
               <a>Foods</a>
@@ -99,36 +114,6 @@ const NavLinks = ({ extraClassName }) => {
           </li>
         </ul>
       </li>
-      {/* <li className="dropdown">
-        <Link href="#">
-          <>
-            <a>BILATERAL RELATIONS</a>
-            <button
-              aria-label="dropdown toggler"
-              onClick={handleDropdownStatus}
-            >
-              <i className="fa fa-angle-down"></i>
-            </button>
-          </>
-        </Link>
-        <ul className="dropdown-list">
-          <li>
-            <Link href="/diplomatic_relations">
-              <a>Diplomatic Relations</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/economic_relations">
-              <a>Economic Relations</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/pakistani_diaspora">
-              <a>Pakistani Diaspora in Sweden and Finland </a>
-            </Link>
-          </li>
-        </ul>
-      </li> */}
 
       <li className="dropdown">
         <Link href="#">
@@ -163,56 +148,85 @@ const NavLinks = ({ extraClassName }) => {
               <a>E-Visa Service</a>
             </Link>
           </li>
+          <li className="dropdown">
+            <Link href="#">
+              <>
+                <a>Complain Procedure</a>
+                <button
+                  aria-label="dropdown toggler"
+                  onClick={handleDropdownStatus}
+                >
+                  <i className="fa fa-angle-down dropright"></i>
+                </button>
+              </>
+            </Link>
+            <ul className="dropdown-list">
+              <li>
+                <Link href="/grievance-commissioner-cell-for-overseas-pakistanis">
+                  <a>Grievance commissioner cell for overseas Pakistanis </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/medical-tourism-initiative">
+                  <a>Medical tourism initiative</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/federal-tax-ombudsman-facilitation-desks-at-international-airports-and-customs-border-stations">
+                  <a>Tax ombudsman </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/renunciation">
+                  <a>Renunciation</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/PMDU">
+                  <a>PMDU</a>
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li className="dropdown">
+            <Link href="#">
+              <>
+                <a>Documents</a>
+                <button
+                  aria-label="dropdown toggler"
+                  onClick={handleDropdownStatus}
+                >
+                  <i className="fa fa-angle-down dropright"></i>
+                </button>
+              </>
+            </Link>
+            <ul className="dropdown-list">
+              <li>
+                <Link href="/attestation">
+                  <a>Attestation of Documents</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/registration-of-newborn">
+                  <a>Registration of Birth</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/letter-of-administration-succession-certificate-by-nadra">
+                  <a>Succession Certificate</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/police-character-certificate-verification">
+                  <a>Police character certificate verifications</a>
+                </Link>
+              </li>
+            </ul>
+          </li>
 
-          <li>
-            <Link href="/attestation">
-              <a>Attestation of Documents</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/registration-of-newborn">
-              <a>Registration of Birth</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/letter-of-administration-succession-certificate-by-nadra">
-              <a>Succession Certificate</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/grievance-commissioner-cell-for-overseas-pakistanis">
-              <a>Grievance commissioner cell for overseas Pakistanis </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/PMDU">
-              <a>PMDU</a>
-            </Link>
-          </li>
           <li>
             <Link href="/faqs">
               <a>FAQ</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/medical-tourism-initiative">
-              <a>Medical tourism initiative</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/police-character-certificate-verification">
-              <a>Police character certificate verifications</a>
-            </Link>
-          </li>
-
-          <li>
-            <Link href="/federal-tax-ombudsman-facilitation-desks-at-international-airports-and-customs-border-stations">
-              <a>Tax ombudsman </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/renunciation">
-              <a>Renunciation</a>
             </Link>
           </li>
         </ul>

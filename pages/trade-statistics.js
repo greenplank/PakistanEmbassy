@@ -27,7 +27,7 @@ const TradeProfile = () => {
         <StickyHeader />
         <section className="about-one pb-40">
           <Container>
-            <h3 className="mb-10 mt-120 text-left">
+            {/* <h3 className="mb-10 mt-120 text-left">
               <b>Invest in Pakistan</b>
             </h3>
             <ul className="mb-50">
@@ -57,7 +57,7 @@ const TradeProfile = () => {
                   Click Here
                 </a>
               </li>
-            </ul>
+            </ul> */}
             <h3 className="mb-10 mt-120 text-left">
               <b>Why Invest in Pakistan?</b>
             </h3>
