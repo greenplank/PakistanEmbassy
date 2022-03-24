@@ -26,15 +26,14 @@ const NADRAApplication = () => {
               <Col lg={12}>
                 <p className="mt-50">NADRA ID cards</p>
                 <h5>
-                  Overseas Pakistanis can apply for their ID cards from their
-                  homes at{"  "}
+                  Overseas Pakistanis can apply for their ID cards
                   <a target="_blank" href="https://id.nadra.gov.pk.">
-                    https://id.nadra.gov.pk.
+                    online
                   </a>
                 </h5>
                 <p className="mb-30 mt-30 text-left">
-                  In addition, NADRA has launched 24/7 online/web chat service
-                  to guide and facilitate online applicants at the URL{" "}
+                  NADRA has launched 24/7 online/web chat service to guide and
+                  facilitate online applicants at the URL{" "}
                   <a
                     target="_blank"
                     href="https://www.messenger.com/t/nadrapakidentity."
@@ -135,15 +134,13 @@ const NADRAApplication = () => {
                       </tbody>
                     </table>
                   </div>
-                  <h4 className="mb-30 mt-80" >
+                  <h4 className="mb-30 mt-80">
                     <b class="font-italic">
                       BEAWARE of some fake NADRA websites found on Google and
                       other search engines. Only the above mentioned website is
                       used for Nadra online applications.
                     </b>
                   </h4>
-                 
-                
                 </div>
               </Col>
             </Row>

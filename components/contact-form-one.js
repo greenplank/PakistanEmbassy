@@ -5,6 +5,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
+// import TextField from "@mui/material/TextField";
+import AdapterDateFns from "@mui/lab/AdapterDateFns";
+import LocalizationProvider from "@mui/lab/LocalizationProvider";
+import DateTimePicker from "@mui/lab/DateTimePicker";
 
 import Box from "@material-ui/core/Box";
 import InputLabel from "@material-ui/core/InputLabel";
@@ -83,6 +87,8 @@ const ContactFormOne = () => {
     e.target.reset();
   }
 
+  const [value, setValue] = React.useState(new Date());
+
   const classes = useStyles();
 
   const [name, setName] = useState("");
@@ -144,21 +150,6 @@ const ContactFormOne = () => {
       <Container>
         <Row>
           <Col lg={8} style={{ paddingTop: "2em" }}>
-            {/* <h3 className="pt-120 pb-50">
-              <b>Book Your own Appointment</b>
-            </h3> */}
-            {/* <div class="alert alert-secondary mb-30" role="alert">
-              <p>
-                <b>
-                  Import Note: Appointment will be consider in these timings
-                </b>
-                <br />
-                Monday to Thursday: 09:00 to 12:00
-                <br />
-                Friday: 09:00 to 11:00
-                <br />
-              </p>
-            </div> */}
             <form
               className="contact-form-validated contact-page__form form-one mb-40"
               onSubmit={sendEmail}
@@ -188,7 +179,7 @@ const ContactFormOne = () => {
                     onChange={onChange}
                   />
                 </div>
-                <div className="col-12 col-md-6 mb-20">
+                <div className="col-12 col-md-12 mb-20">
                   <Box sx={{ minWidth: 120 }}>
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
@@ -209,8 +200,8 @@ const ContactFormOne = () => {
                     </FormControl>
                   </Box>
                 </div>
-                <div className="col-12 col-md-6 mb-20">
-                  <TextField
+                <div className="col-12 col-md-12 mb-20">
+                  {/* <TextField
                     id="datetime-local"
                     variant="outlined"
                     label="Appointment"
@@ -218,9 +209,24 @@ const ContactFormOne = () => {
                     name="date-time"
                     defaultValue="2022-01-25T11:30"
                     fullWidth
-                  />
-                  
+                  /> */}
 
+                  <LocalizationProvider dateAdapter={AdapterDateFns}>
+                    <DateTimePicker
+                      renderInput={(params) => <TextField {...params} />}
+                      label="Appointment"
+                      variant="outlined"
+                      fullWidth
+                      value={value}
+                      onChange={(newValue) => {
+                        setValue(newValue);
+                      }}
+                      minDate={new Date("2022-03-22")}
+                      maxDate={new Date("2022-03-22")}
+                      minTime={new Date(0, 0, 0, 9)}
+                      maxTime={new Date(0, 0, 0, 18,45)}
+                    />
+                  </LocalizationProvider>
                 </div>
                 <div className="col-12 mb-20">
                   <TextField

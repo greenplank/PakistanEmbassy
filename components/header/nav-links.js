@@ -68,6 +68,11 @@ const NavLinks = ({ extraClassName }) => {
             </Link>
           </li>
           <li>
+            <Link href="/sports">
+              <a>Sports</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/visit-pakistan">
               <a>Visit Pakistan</a>
             </Link>

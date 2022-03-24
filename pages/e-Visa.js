@@ -12,33 +12,44 @@ const EVisa = () => {
   return (
     <>
       <Head>
-        <title>E-Visa Service</title>
-        <meta name="title" content="E-Visa Service" />
+        <title>Visa for Pakistan</title>
+        <meta name="title" content="Visa for Pakistan" />
         <meta name="description" content="" />
       </Head>
-      <Layout pageTitle="E-Visa Service">
+      <Layout pageTitle="Visa for Pakistan">
         <HeaderTwo />
-        <PageHeader title="E-Visa Service" />
+        <PageHeader title="Visa for Pakistan" />
         <StickyHeader />
         <section className="about-one pb-40">
           <Container>
             <Row style={{ marginBottom: "4em" }}>
               <Col lg={12}>
                 <h1 className="mt-80">
-                  <b>E-Visa Service</b>
+                  <b>Visa for Pakistan</b>
                 </h1>
                 <p className="mb-30 mt-30 text-left">
                   <ul>
-                    <li>All visas are issued online only.</li>
                     <li>
-                      To apply for visa and for all other relevant
-                      information, please visit the following website{" "}
+                      To apply for visa and for all other relevant information,
+                      please{" "}
                       <a target="_blank" href="https://visa.nadra.gov.pk/">
-                        https://visa.nadra.gov.pk/
+                        click here
                       </a>{" "}
                     </li>
-                    <li>For children under 18 years the NOC shall be duly signed by both the parents even if both parents are travelling with the child/children.</li>
-                    <li>For NOC form for children under 18 years of age, <a target="_blank" href="/pdfs/NOC.pdf">click here</a></li>
+                    <li>
+                      For children under 18 years the NOC shall be duly signed
+                      by both the parents even if both parents are travelling
+                      with the child/children.
+                    </li>
+                    <li>
+                      For NOC form for children under 18 years of age,{" "}
+                      <a target="_blank" href="/pdfs/NOC.pdf">
+                        click here
+                      </a>
+                    </li>
+                    <li>
+                      The embassy does not receive applications physically
+                    </li>
                   </ul>
                 </p>
               </Col>
