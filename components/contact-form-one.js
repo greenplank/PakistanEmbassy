@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import TextField from "@material-ui/core/TextField";
-import { makeStyles } from "@material-ui/core/styles";
+// import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
@@ -20,36 +20,6 @@ import emailjs from "emailjs-com";
 import { init } from "emailjs-com";
 init("user_2fxp3gxwSYHQUoEcAfrAB");
 
-const useStyles = makeStyles((theme) => ({
-  background: {
-    // backgroundImage: `url(${background})`,
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    height: "60em",
-  },
-  message: {
-    border: `2px solid green`,
-    marginTop: ".5em",
-    borderRadius: ".3em",
-  },
-  sendButton: {
-    ...theme.typography.estimate,
-    borderRadius: 50,
-    height: 45,
-    width: 245,
-    fontSize: "1rem",
-    backgroundColor: "#28a745",
-    "&:hover": {
-      backgroundColor: "#28a745",
-    },
-    [theme.breakpoints.down("sm")]: {
-      height: 40,
-      width: 225,
-    },
-  },
-}));
-
 const ContactFormOne = () => {
   function sendEmail(e) {
     debugger;
@@ -63,7 +33,7 @@ const ContactFormOne = () => {
         "user_2fxp3gxwSYHQUoEcAfrAB"
       )
       .then(
-        ((res) => {
+        (() => {
           setLoading(false);
           setOpen(false);
           setName("");
@@ -75,7 +45,7 @@ const ContactFormOne = () => {
             message: "Message sent successfully",
             backgroundColor: "#4BB543",
           });
-        })((err) => {
+        })(() => {
           setLoading(false);
           steAlert({
             open: true,
@@ -87,9 +57,31 @@ const ContactFormOne = () => {
     e.target.reset();
   }
 
-  const [value, setValue] = React.useState(new Date());
+  // async function handleOnSubmit(e){
+  //   e.preventDefault();
+  //   const formData={}
+  //   Array.from(e.currentTarget.elements).forEach(field=>{
+  //     if(!field.name) return;
+  //     formData[field.name]=field.value;
+  //   });
+  //   fetch('/api/mail',{
+  //     method:'post',
+  //     body: JSON.stringify(formData)
+  //   })
+  //   console.log(formData)
+  // }
 
-  const classes = useStyles();
+  const [datetime, setDatetime] = useState(new Date());
+
+  const disableWeekends = (date) => {
+    return date.getDay() === 0 || date.getDay() === 5 || date.getDay() === 6;
+  };
+
+  const disableDates = () => {
+    let date = ["2022-04-18", "2022-04-20"];
+    const dateInt = [new Date(date[0]), new Date(date[1])];
+    return dateInt.indluces(new Date(date)); // this is return false where in out case has to return true
+  };
 
   const [name, setName] = useState("");
 
@@ -101,8 +93,6 @@ const ContactFormOne = () => {
   const handleChange = (event) => {
     setSelectAppointment(event.target.value);
   };
-
-  const [selectedDate, handleDateChange] = useState(new Date());
 
   const [message, setMessage] = useState("");
 
@@ -118,7 +108,8 @@ const ContactFormOne = () => {
     backgroundColor: "",
   });
 
-  const onChange = (event) => {
+  //Change the Email
+  const onChangeEmail = (event) => {
     let valid;
 
     switch (event.target.id) {
@@ -139,22 +130,18 @@ const ContactFormOne = () => {
     }
   };
 
-  const buttonContents = (
-    <React.Fragment>
-      Submit
-      {/* <img src={airplane} alt="paper airplane" style={{ marginLeft: "1em" }} /> */}
-    </React.Fragment>
-  );
+  const buttonContents = <React.Fragment>Submit</React.Fragment>;
   return (
     <section className="contact-page pb-80">
       <Container>
         <Row>
           <Col lg={8} style={{ paddingTop: "2em" }}>
             <form
+              method="post"
               className="contact-form-validated contact-page__form form-one mb-40"
               onSubmit={sendEmail}
             >
-              <div className="row row-10">
+              <div className="row">
                 <div className="col-md-6 col-12 mb-20">
                   <TextField
                     variant="outlined"
@@ -176,7 +163,7 @@ const ContactFormOne = () => {
                     label="Enter your Email"
                     id="email"
                     value={email}
-                    onChange={onChange}
+                    onChange={onChangeEmail}
                   />
                 </div>
                 <div className="col-12 col-md-12 mb-20">
@@ -216,15 +203,18 @@ const ContactFormOne = () => {
                       renderInput={(params) => <TextField {...params} />}
                       label="Appointment"
                       variant="outlined"
+                      name="date-time"
                       fullWidth
-                      value={value}
-                      onChange={(newValue) => {
-                        setValue(newValue);
-                      }}
-                      minDate={new Date("2022-03-22")}
-                      maxDate={new Date("2022-03-22")}
-                      minTime={new Date(0, 0, 0, 9)}
-                      maxTime={new Date(0, 0, 0, 18,45)}
+                      // selected={value}
+                      // onChange={date => setStartDate(date)}
+                      // excludeDateIntervals={[{start: (new Date(), 5), end: (new Date(), 5) }]}
+                      value={datetime}
+                      onChange={setDatetime}
+                      shouldDisableDate={disableWeekends}
+                      // disabledDate={disableDates}
+                      minDate={new Date()}
+                      minTime={new Date(0, 0, 0, 10)}
+                      maxTime={new Date(0, 0, 0, 12, 45)}
                     />
                   </LocalizationProvider>
                 </div>
@@ -257,7 +247,6 @@ const ContactFormOne = () => {
                 <div className="col-md-6 col-12 mb-20">
                   <Button
                     variant="contained"
-                    className={classes.sendButton}
                     type="submit"
                     disabled={
                       name.length === 0 ||
@@ -272,7 +261,6 @@ const ContactFormOne = () => {
                 </div>
               </div>
             </form>
-            {/* <div className="result"></div> */}
           </Col>
         </Row>
       </Container>

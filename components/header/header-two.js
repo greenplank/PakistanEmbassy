@@ -116,7 +116,7 @@ const HeaderTwo = () => {
                           <Clock
                             format={"HH:mm"}
                             ticking={true}
-                            timezone={"PKT"}
+                            timezone={"Asia/Karachi"}
                           />
                         </p>
                       </div>
