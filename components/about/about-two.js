@@ -32,7 +32,7 @@ const AboutTwo = () => {
                   
                 </Row> */}
                 <h5 style={{ margin:'2px 4px 24px 15px', color: 'white' }}>
-                  Pakistan’s Tech industry is growing very fast over the last decade and is currently among the top 3 exporting industries. The growth is fueled by the young and tech savvy people who are creating opportunities for disruptors and entrepreneurs. Increasing local and foreign capita..
+                Pakistan offers huge business and investment opportunities for Swedish & Finnish companies e.g. in infrastructure, construction, education, healthcare, energy, cleantech, water, food and food production as well as within agriculture and IT/ICT sectors. Just a few to mention..
                 </h5><span><a href="/commercial-section" style={{ margin:'2px 0px 24px 15px',color: 'white' }}>More</a> </span>
 
               </div>

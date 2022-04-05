@@ -260,10 +260,31 @@ const NavLinks = ({ extraClassName }) => {
               <a>Invest in Pakistan</a>
             </Link>
           </li>
-          <li>
-            <Link href="/export-import-rules-sweden">
-              <a>Import and Export Process</a>
+          <li className="dropdown">
+            <Link href="#">
+              <>
+                <a>Trade</a>
+                <button
+                  aria-label="dropdown toggler"
+                  onClick={handleDropdownStatus}
+                >
+                  <i className="fa fa-angle-down dropright"></i>
+                </button>
+              </>
             </Link>
+            <ul className="dropdown-list">
+              <li>
+                <Link href="/pakistan-sweden-trade">
+                  <a>Pakistan Sweden</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/pakistan-finland-trade">
+                  <a>Pakistan Finland</a>
+                </Link>
+              </li>
+          
+            </ul>
           </li>
 
           <li>

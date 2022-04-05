@@ -77,11 +77,6 @@ const ContactFormOne = () => {
     return date.getDay() === 0 || date.getDay() === 5 || date.getDay() === 6;
   };
 
-  const disableDates = () => {
-    let date = ["2022-04-18", "2022-04-20"];
-    const dateInt = [new Date(date[0]), new Date(date[1])];
-    return dateInt.indluces(new Date(date)); // this is return false where in out case has to return true
-  };
 
   const [name, setName] = useState("");
 
@@ -211,10 +206,9 @@ const ContactFormOne = () => {
                       value={datetime}
                       onChange={setDatetime}
                       shouldDisableDate={disableWeekends}
-                      // disabledDate={disableDates}
                       minDate={new Date()}
                       minTime={new Date(0, 0, 0, 10)}
-                      maxTime={new Date(0, 0, 0, 12, 45)}
+                      maxTime={new Date(0, 0, 0, 12, 10)}
                     />
                   </LocalizationProvider>
                 </div>

@@ -130,7 +130,7 @@ const UrduLanguage = () => {
                     target="_blank"
                     href="http://www.alisheraz.com/urdu-editor.php"
                   >
-                    http://www.alisheraz.com/urdu-editor.php
+                   alisheraz
                   </a>
                 </p>
                 <p className="mb-30 mt-30 text-left">
@@ -142,7 +142,7 @@ const UrduLanguage = () => {
                   which provides the writing space along with the Urdu Keypad to
                   type Urdu language easily.
                   <br />
-                  <a href="https://matnsaz.net/">https://matnsaz.net/</a>
+                  <a href="https://matnsaz.net/">matnsaz</a>
                 </p>
                 <p className="mb-30 mt-30 text-left">
                   Matansaz is also a keyboard for long Urdu writings with an
@@ -152,7 +152,7 @@ const UrduLanguage = () => {
                     href="https://www.mbilalm.com/download/pak-urdu-installer.php"
                     target="_blank"
                   >
-                    https://www.mbilalm.com/download/pak-urdu-installer.php
+                  mbilalm
                   </a>
                 </p>
                 <p className="mb-30 mt-30 text-left">
@@ -161,7 +161,7 @@ const UrduLanguage = () => {
                   by the website is Pak Urdu installer through which one can
                   type Urdu by using qwerty keyboard.
                   <a href="https://urduthesaurus.com/index" target="_blank">
-                    https://urduthesaurus.com/index
+                   urduthesaurus
                   </a>
                 </p>
                 <p className="mb-30 mt-30 text-left">
@@ -171,7 +171,7 @@ const UrduLanguage = () => {
                   phrases.
                   <br />
                   <a href="https://اردو.com/" target="_blank">
-                    https://اردو.com/
+                   اردو
                   </a>
                 </p>
                 <p className="mb-30 mt-30 text-left">
@@ -183,7 +183,7 @@ const UrduLanguage = () => {
                   poetry, content for discussion, quotes, idioms, golden words
                   in Urdu etc.
                   <a href="https://youtu.be/aMOX1I3lo34" target="_blank">
-                    https://youtu.be/aMOX1I3lo34 
+                   Video Link
                   </a>
                 </p>
                 <p className="mb-30 mt-30 text-left">
@@ -191,41 +191,43 @@ const UrduLanguage = () => {
                   the regular  keyboard for Urdu typing.
                 </p>
                 <div className="mt-30">
+                  <h4 className="mt-60">For more Information view below links</h4>
+                  <hr/>
                   <a
                     target="_blank"
                     href="http://www.alisheraz.com/urdu-editor.php"
                   >
-                    http://www.alisheraz.com/urdu-editor.php
+                    Ali Sheraz
                   </a>
                   <br />
                   <a
                     target="_blank"
                     href="https://books.apple.com/gb/book/general-urdu-vocabulary/id1237763911"
                   >
-                    https://books.apple.com/gb/book/general-urdu-vocabulary/id1237763911
+                    General-Urdu-Vocabulary
                   </a>
                   <br />
                   <a target="_blank" href="https://matnsaz.net/">
-                    https://matnsaz.net/
+                    matnsaz
                   </a>
                   <br />
                   <a
                     target="_blank"
                     href="https://www.mbilalm.com/download/pak-urdu-installer.php"
                   >
-                    https://www.mbilalm.com/download/pak-urdu-installer.php
+                   Pak-urdu-installer
                   </a>
                   <br />
                   <a target="_blank" href="https://urduthesaurus.com/index">
-                    https://urduthesaurus.com/index
+                   Urdu_the_saurus
                   </a>
                   <br />
                   <a target="_blank" href="https://xn--mgbqf7g.com/">
-                    https://اردو.com/
+                    اردو
                   </a>
                   <br />
                   <a target="_blank" href="https://xn--mgbqf7g.com/">
-                    https://youtu.be/aMOX1I3lo34
+                   Video Link
                   </a>
                 </div>
               </Col>
