@@ -87,12 +87,12 @@ const AboutFour = () => {
                       color: "#035804",
                     }}
                   >
-                    <b>Welcome to the Embassy of Pakistan </b>
+                    <b>Welcome to the Embassy of Pakistan in Stockholm</b>
                   </h2>
                   <hr
                     style={{
                       backgroundColor: "#035804",
-                      width: "70%",
+                      width: "94%",
                       borderWidth: "3px",
                       marginBottom: "34px",
                       marginRight: "28em",
@@ -102,18 +102,31 @@ const AboutFour = () => {
               </Row>
               <div>
                 <p>
-                  Ambassador Zahoor Ahmed is a career Foreign Service officer
-                  with diplomatic experience spanning over 27 years that
-                  includes various assignments at the Ministry of Foreign
-                  Affairs as well as Pakistan’s missions abroad in both
-                  bilateral and multilateral arenas. Prior to being designated
-                  as Pakistan's Ambassador to Sweden with concurrent
-                  accreditation to Finland, he was Additional Foreign Secretary
-                  (Asia Pacific) in the Ministry of Foreign Affairs, Islamabad.
-                  In this capacity he dealt with Pakistan's relations with China
-                  and countries of ASEAN and SAARC regions, Australia, New
-                  Zealand, Japan and Koreas. He also represented Pakistan at the
-                  ASEAN regional forum, ASEM and SAARC.
+                  Through this website we hope to give you a glimpse of Pakistan
+                  and the many aspects of Pakistan’s relations with Sweden and
+                  Finland.{" "}
+                </p>
+                <p>
+                  We also hope to provide you with a more user-friendly
+                  experience of our consular services. We have tried to make it
+                  a one window comprehensive information portal for those
+                  interested in travelling to Pakistan or doing business with
+                  Pakistan. In particular we are pleased with the guides for
+                  those who wish to study and work in Sweden and compilation of
+                  resources for teaching Urdu language.
+                </p>
+                <p>
+                  The website will be complemented with our social media
+                  accounts on Facebook, Twitter , instagram and Linkedin.
+                </p>
+                <p>
+                  I look forward to your feedback and suggestions to further
+                  improve the website.
+                </p>
+                <p>
+                  <b>Dr. Zahoor Ahmed</b>
+                  <br />
+                  Ambassador of Pakistan to Sweden and Finland
                 </p>
               </div>
             </Col>
@@ -122,7 +135,7 @@ const AboutFour = () => {
                 <Col lg={12} md={12} xs={12}>
                   <a
                     className="twitter-timeline"
-                    data-height="480"
+                    data-height="580"
                     href="https://twitter.com/PakinSweden"
                     target="_blank"
                     rel="noreferrer"

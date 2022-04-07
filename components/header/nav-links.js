@@ -138,6 +138,41 @@ const NavLinks = ({ extraClassName }) => {
               <a>Book an appointment</a>
             </Link>
           </li>
+          <li className="dropdown">
+            <Link href="#">
+              <>
+                <a>Attestation & Documents</a>
+                <button
+                  aria-label="dropdown toggler"
+                  onClick={handleDropdownStatus}
+                >
+                  <i className="fa fa-angle-down dropright"></i>
+                </button>
+              </>
+            </Link>
+            <ul className="dropdown-list">
+              <li>
+                <Link href="/attestation">
+                  <a>Attestation of Documents</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/registration-of-newborn">
+                  <a>Registration of Birth</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/letter-of-administration-succession-certificate-by-nadra">
+                  <a>Succession Certificate</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/police-character-certificate-verification">
+                  <a>Police character certificate verifications</a>
+                </Link>
+              </li>
+            </ul>
+          </li>
           <li>
             <Link href="/passport-application">
               <a>Application for passport</a>
@@ -193,41 +228,7 @@ const NavLinks = ({ extraClassName }) => {
               </li>
             </ul>
           </li>
-          <li className="dropdown">
-            <Link href="#">
-              <>
-                <a>Documents</a>
-                <button
-                  aria-label="dropdown toggler"
-                  onClick={handleDropdownStatus}
-                >
-                  <i className="fa fa-angle-down dropright"></i>
-                </button>
-              </>
-            </Link>
-            <ul className="dropdown-list">
-              <li>
-                <Link href="/attestation">
-                  <a>Attestation of Documents</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/registration-of-newborn">
-                  <a>Registration of Birth</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/letter-of-administration-succession-certificate-by-nadra">
-                  <a>Succession Certificate</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/police-character-certificate-verification">
-                  <a>Police character certificate verifications</a>
-                </Link>
-              </li>
-            </ul>
-          </li>
+        
 
           <li>
             <Link href="/faqs">

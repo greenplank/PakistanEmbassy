@@ -77,6 +77,10 @@ const ContactFormOne = () => {
     return date.getDay() === 0 || date.getDay() === 5 || date.getDay() === 6;
   };
 
+  const customDates = ["2022-04-18", "2022-04-25", "2022-04-28"];
+  const disableCustomDt = (current) => {
+    return !customDates.includes(current.format("YYYY-MM-DD"));
+  };
 
   const [name, setName] = useState("");
 
@@ -206,6 +210,8 @@ const ContactFormOne = () => {
                       value={datetime}
                       onChange={setDatetime}
                       shouldDisableDate={disableWeekends}
+                     
+                      // shouldDisableDate={disableCustomDt}
                       minDate={new Date()}
                       minTime={new Date(0, 0, 0, 10)}
                       maxTime={new Date(0, 0, 0, 12, 10)}
